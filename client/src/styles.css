@@ -34,19 +34,18 @@ body {
 
 .body-container {
     flex: 1;
+    padding: 20px;
 }
 
 .logo {
-    max-height: 150px; /* Set a specific max width for the logo */
-    width: auto; /* Keeps the aspect ratio of the logo */
+    max-height: 150px; 
+    width: auto; 
 }
 
-/* Cursor for buttons */
 button, .button-class {
     cursor: pointer;
 }
 
-/* Text cursor for typing in input fields and text areas */
 input[type="text"], textarea {
     cursor: text;
 }

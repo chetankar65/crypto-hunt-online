@@ -1,18 +1,21 @@
 .terminal-container {
+  border-radius: 10px;
   background-color: #211D1B;
   color: #519975;
   font-family: cursor, monospace;
-  height: 100%; /* Adjust height to account for padding (20px top + 20px bottom) */
+  height: 550px; /* Set a fixed height or use max-height */
+  max-height: 550px; /* You can change this value to fit your layout */
   padding: 20px;
   border: 2px solid #333;
-  overflow-y: auto;
-  box-sizing: border-box; /* Include padding and border in the element's total height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  box-sizing: border-box; 
 }
-
 
 .output-area {
   margin-bottom: 10px;
+  overflow-y: auto; /* Ensures the output area also scrolls if necessary */
 }
+
 
 .command-line {
   color: #519975;
@@ -73,4 +76,18 @@ pre.title {
 ::selection {
   color: #211D1B;
   background: #519975;
+}
+
+/* Custom Scrollbar Styles */
+.terminal-container::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.terminal-container::-webkit-scrollbar-thumb {
+  background-color: #9C8394; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.terminal-container::-webkit-scrollbar-track {
+  background: #333; /* Background of the scrollbar track */
 }
