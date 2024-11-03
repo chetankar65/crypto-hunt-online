@@ -92,3 +92,7 @@ pre.title {
 .terminal-container::-webkit-scrollbar-track {
   background: #333; /* Background of the scrollbar track */
 }
+
+.terminal-topbar {
+  background-color: white;
+}

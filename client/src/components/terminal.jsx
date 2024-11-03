@@ -100,11 +100,11 @@ const Terminal = () => {
         args = json;
         if (args.path !== null) setPath(args.path);
         const outFinal = args.output;
-          // Include the current path in the history
-          setHistory([
-            ...history,
-            { command, output: outFinal, currentPath: createPathString() },
-          ]);
+        // Include the current path in the history
+        setHistory([
+          ...history,
+          { command, output: outFinal, currentPath: createPathString() },
+        ]);
       })
       .catch((error) => console.error(error));
 
@@ -182,7 +182,7 @@ const Terminal = () => {
           setTimeout(() => {
             inputRef.current.setSelectionRange(0, 0); // Reset cursor position
           }, 0);
-        } 
+        }
       }
     }
   };
@@ -198,14 +198,18 @@ const Terminal = () => {
   };
 
   return (
-    <div
-      className="terminal-container"
-      onClick={handleContainerClick}
-      onKeyDown={handleKeyDown}
-      tabIndex={0}
-    >
-      <pre className="title">
-        {`
+    <div className="terminal-outer-container">
+      <div className="terminal-topbar">
+        topbar goes here
+      </div>
+      <div
+        className="terminal-container"
+        onClick={handleContainerClick}
+        onKeyDown={handleKeyDown}
+        tabIndex={0}
+      >
+        <pre className="title">
+          {`
             CSES Not A Corporation. All nights reserved.
  ________  ________      ___    ___ ________  _________  ___  ________          ___  ___  ___  ___  ________   _________   
 |\\   ____\\|\\   __  \\    |\\  \\  /  /|\\   __  \\|\\___   ___\\\\  \\|\\   ____\\        |\\  \\|\\  \\|\\  \\|\\  \\|\\   ___  \\|\\___   ___\\ 
@@ -218,62 +222,67 @@ const Terminal = () => {
                                                                                                                            
                                                                                                                            
           `}
-      </pre>
-      <button onClick={logout}>Logout</button>
-      <h1>Level number: {level}</h1>
-      <div className="output-area">
-        {history.map((entry, index) => (
-          <div key={index}>
-            <div className="command-line">
-              cses@cryptic:
-              <span className="path-color">~{entry.currentPath}$</span>{" "}
-              {entry.command}
+        </pre>
+        <button onClick={logout}>Logout</button>
+        <h1>Level number: {level}</h1>
+        <div className="output-area">
+          {history.map((entry, index) => (
+            <div key={index}>
+              <div className="command-line">
+                cses@cryptic:
+                <span className="path-color">~{entry.currentPath}$</span>{" "}
+                {entry.command}
+              </div>
+              <div className="command-output">
+                {(Array.isArray(entry.output)
+                  ? entry.output
+                  : [entry.output]
+                ).map((item, idx) => {
+                  if (typeof item === "object" && item !== null) {
+                    return (
+                      <span
+                        key={idx}
+                        className={
+                          item.type === "dir" ? "dir-color" : "file-color"
+                        }
+                      >
+                        {item.name || "Unnamed"}{" "}
+                      </span>
+                    );
+                  } else {
+                    return (
+                      <span className="output-text" key={idx}>
+                        {item}{" "}
+                      </span>
+                    );
+                  }
+                })}
+              </div>
             </div>
-            <div className="command-output">
-              {(Array.isArray(entry.output)
-                ? entry.output
-                : [entry.output]
-              ).map((item, idx) => {
-                if (typeof item === "object" && item !== null) {
-                  return (
-                    <span
-                      key={idx}
-                      className={
-                        item.type === "dir" ? "dir-color" : "file-color"
-                      }
-                    >
-                      {item.name || "Unnamed"}{" "}
-                    </span>
-                  );
-                } else {
-                  return <span className="output-text" key={idx}>{item} </span>;
-                }
-              })}
-            </div>
-          </div>
-        ))}
-        <div ref={terminalEndRef} />
-      </div>
-
-      <form onSubmit={handleSubmit}>
-        <div className="input-line">
-          <span className="prompt">
-            cses@cryptic:
-            <span className="path-color">
-              ~{path.length > 1 ? createPathString(path) : ""}$
-            </span>
-          </span>
-          <input
-            type="text"
-            ref={inputRef}
-            className="input-field"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            autoFocus
-          />
+          ))}
+          <div ref={terminalEndRef} />
         </div>
-      </form>
-      <FlagInput flag={flag} level={level} />
+
+        <form onSubmit={handleSubmit}>
+          <div className="input-line">
+            <span className="prompt">
+              cses@cryptic:
+              <span className="path-color">
+                ~{path.length > 1 ? createPathString(path) : ""}$
+              </span>
+            </span>
+            <input
+              type="text"
+              ref={inputRef}
+              className="input-field"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              autoFocus
+            />
+          </div>
+        </form>
+        <FlagInput flag={flag} level={level} />
+      </div>
     </div>
   );
 };
