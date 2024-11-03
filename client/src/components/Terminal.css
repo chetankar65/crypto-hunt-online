@@ -1,5 +1,4 @@
 .terminal-container {
-  border-radius: 10px;
   background-color: #211D1B;
   color: #519975;
   font-family: cursor, monospace;
@@ -9,7 +8,7 @@
   border: 2px solid #333;
   overflow-y: auto; /* Enable vertical scrolling */
   box-sizing: border-box; 
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  border-radius: 0px 0px 10px 10px;
 }
 
 .output-area {
@@ -94,5 +93,26 @@ pre.title {
 }
 
 .terminal-topbar {
-  background-color: white;
+  background-color: #302C29;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.terminal-logo {
+  height: 30px; 
+  width: auto;  
+  object-fit: contain; 
+}
+
+.terminal-topbar-directory {
+  color: whitesmoke;
+  font-family: cursor, monospace;
+}
+
+.terminal-outer-container {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
 }
