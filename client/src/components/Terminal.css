@@ -1,12 +1,14 @@
 .terminal-container {
   background-color: #211D1B;
   color: #519975;
-  font-family: cursor, monospace;;
-  height: 100vh;
+  font-family: cursor, monospace;
+  height: 100%; /* Adjust height to account for padding (20px top + 20px bottom) */
   padding: 20px;
   border: 2px solid #333;
   overflow-y: auto;
+  box-sizing: border-box; /* Include padding and border in the element's total height */
 }
+
 
 .output-area {
   margin-bottom: 10px;

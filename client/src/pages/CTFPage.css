@@ -1,0 +1,9 @@
+.terminal-comp {
+    flex: 1;
+    height: 100%;
+}
+
+.ctf-page {
+    display: flex;
+    height: 100%;
+}

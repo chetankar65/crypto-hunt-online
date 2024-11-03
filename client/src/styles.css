@@ -1,0 +1,52 @@
+/* styles.css */
+
+* {
+    cursor: url('../public/cursor.svg'), auto;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-image: url('../public/bg.svg');
+    height: 100%;
+}
+
+body {
+    height: 98%;
+}
+
+#root {
+    height: 100%;
+}
+
+.App {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.body-container {
+    flex: 1;
+}
+
+.logo {
+    max-height: 150px; /* Set a specific max width for the logo */
+    width: auto; /* Keeps the aspect ratio of the logo */
+}
+
+/* Cursor for buttons */
+button, .button-class {
+    cursor: pointer;
+}
+
+/* Text cursor for typing in input fields and text areas */
+input[type="text"], textarea {
+    cursor: text;
+}
