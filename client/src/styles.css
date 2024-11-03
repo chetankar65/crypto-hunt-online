@@ -47,5 +47,6 @@ button, .button-class {
 }
 
 input[type="text"], textarea {
-    cursor: text;
+    cursor: url('../public/cursor-text.svg') 8 10, auto; /* Use the custom cursor image */
 }
+
