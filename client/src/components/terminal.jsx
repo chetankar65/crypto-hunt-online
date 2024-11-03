@@ -117,6 +117,7 @@ const Terminal = () => {
         { command, output, currentPath: createPathString() },
       ]);
     }
+    terminalEndRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleSubmit = (e) => {
