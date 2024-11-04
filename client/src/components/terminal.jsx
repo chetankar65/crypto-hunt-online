@@ -60,8 +60,8 @@ const Terminal = () => {
         `http://localhost:8000/api/levels/get-level-details/${userDetails._id}`
       );
       setDispLevel(response.data.levelNo);
-      setLevel(Math.floor(response.data.level));
-
+      setLevel(response.data.level);
+      
       setFlag(response.data.flag);
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -221,7 +221,7 @@ const Terminal = () => {
       <div className="terminal-topbar">
         <img src="/terminal.png" className="terminal-logo" alt="" />
         <div className="terminal-topbar-directory">
-          level-{level} | cses@cryptic:~{path.length > 1 ? createPathString(path) : ""}
+          level-{Math.floor(level)} | cses@cryptic:~{path.length > 1 ? createPathString(path) : ""}
         </div>
         <img src="/terminal.png" className="terminal-logo" alt="" />
       </div>
