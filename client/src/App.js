@@ -20,7 +20,7 @@ function App() {
       return children;
     }
 
-    return <Navigate to="/ctfmain" />
+    return <Navigate to="/CaptureTheFlag" />
   };
   
   return (
@@ -28,7 +28,7 @@ function App() {
         <Route path="*" element={<h1>404</h1>}/>
         <Route path="/" element={<ProtectedRouteLogin><LoginWithGoogle /></ProtectedRouteLogin>}>
         </Route>
-        <Route path="/ctfmain" element={<ProtectedRoute><CTFMainPage/></ProtectedRoute>} />
+        <Route path="/CaptureTheFlag" element={<ProtectedRoute><CTFMainPage/></ProtectedRoute>} />
       </Routes>
   );
 }
