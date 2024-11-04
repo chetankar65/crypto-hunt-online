@@ -1,6 +1,6 @@
 [
     {
-        "level": 1,
+        "level": 0.1,
         "directory": {
             "hello.txt": {
                 "type": "text",
@@ -28,8 +28,1826 @@
         }
     },
     {
-        "level": 2,
-        "directory": {            "hello.txt": {
+        "level":1.1,
+        "directory": {
+            "file1.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Ado lorum zapu kyred sqla mknoi rt.",
+                "hidden": false
+            },
+            "file2.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Yolk trab invo carko we fluhp daz.",
+                "hidden": true
+            },
+            "file3.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Treq vi prokl myter zgurt hy plo.",
+                "hidden": false
+            },
+            "file4.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Ghrip kelmun fas proqupt xyz.",
+                "hidden": true
+            },
+            "file5.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Stiko ronp qerta skaal mop denti.",
+                "hidden": false
+            },
+            "file6.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Dint werg clopo frunt ozimo.",
+                "hidden": true
+            },
+            "file7.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Meq zor fluna kark lem frolp xy.",
+                "hidden": false
+            },
+            "file8.txt": {
+                "type": "text",
+                "size": 27,
+                "data": "Zing krolp ba lom trosp wex.",
+                "hidden": true
+            },
+            "file9.txt": {
+                "type": "text",
+                "size": 43,
+                "data": "Plit vex za krunb yert biot qastor ga.",
+                "hidden": false
+            },
+            "file10.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Lorbit krak mesoth yon wimex.",
+                "hidden": false
+            },
+            "file11.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Treql bemul zopent fy kropt xrui.",
+                "hidden": true
+            },
+            "file12.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Muz zwolk danf quin slert wekla.",
+                "hidden": false
+            },
+            "file13.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Jorly met psym porp grafd lint.",
+                "hidden": true
+            },
+            "file14.txt": {
+                "type": "text",
+                "size": 40,
+                "data": "Rocha flink trodol vemp qizmo tzel.",
+                "hidden": false
+            },
+            "file15.txt": {
+                "type": "text",
+                "size": 41,
+                "data": "Qinta jrot wefrud qal zepho vambol.",
+                "hidden": true
+            },
+            "file16.txt": {
+                "type": "text",
+                "size": 25,
+                "data": "This is your flag: ${FLAG}",
+                "hidden": false
+            },
+            "file17.txt": {
+                "type": "text",
+                "size": 50,
+                "data": "Klort zan trimb zot lexpor dew git vrixpa.",
+                "hidden": false
+            },
+            "file18.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Cromp veq pilto frant wibz qnap jilo.",
+                "hidden": true
+            },
+            "file19.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Klap yino driz wrold vept xrem tuti.",
+                "hidden": false
+            },
+            "file20.txt": {
+                "type": "text",
+                "size": 47,
+                "data": "Frund vek qert yolm benz wopt zeo drz.",
+                "hidden": true
+            },
+            "file21.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Vi drap tombl zetir qlim jax.",
+                "hidden": false
+            },
+            "file22.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Florn wim zatei bhrot tup nezi.",
+                "hidden": true
+            },
+            "file23.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Sronp ke volem uzni trolg faz.",
+                "hidden": false
+            },
+            "file24.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Prit zolpl varg flut brumi nzer.",
+                "hidden": false
+            },
+            "file25.txt": {
+                "type": "text",
+                "size": 27,
+                "data": "Queld wynor gamt onip slort.",
+                "hidden": true
+            },
+            "file26.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Drak fulem gri zop nit vaq ponk.",
+                "hidden": false
+            },
+            "file27.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Ferq polo xan vet umbi trokd zel.",
+                "hidden": true
+            },
+            "file28.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Broxi qat fermin solq zutp nizg ket.",
+                "hidden": false
+            },
+            "file29.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Mink tox zarto proz fom treqp vle rto.",
+                "hidden": true
+            },
+            "file30.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Vert son kla xwoly pex mron.",
+                "hidden": false
+            },
+            "file31.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Cront vak pix qwerp soz trib.",
+                "hidden": false
+            },
+            "file32.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Fyron gropli vemt kri prozd yolm.",
+                "hidden": true
+            },
+            "file33.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Furt bzep tronq jorl den kiq.",
+                "hidden": false
+            },
+            "file34.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Wex ziop qlant mur kry tze.",
+                "hidden": true
+            },
+            "file35.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Brel doxi curn mimble zoprt crosl.",
+                "hidden": false
+            },
+            "file36.txt": {
+                "type": "text",
+                "size": 44,
+                "data": "Grept plun zor kamix nart wexr toi.",
+                "hidden": true
+            },
+            "file37.txt": {
+                "type": "text",
+                "size": 37,
+                "data": "Pley ronf gilq tram vrox plint.",
+                "hidden": false
+            },
+            "file38.txt": {
+                "type": "text",
+                "size": 46,
+                "data": "Wrimp zento quarp plisk to minx zel.",
+                "hidden": true
+            },
+            "file39.txt": {
+                "type": "text",
+                "size": 52,
+                "data": "Vorkle trom zark pen wex jot golb.",
+                "hidden": false
+            },
+            "file40.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Klemp dart fo qi vopt nex ply.",
+                "hidden": true
+            },
+            "file41.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Tropt mirm bleex vot glib zex.",
+                "hidden": false
+            },
+            "file42.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Nyrok vesk tripl zat glurm qorx.",
+                "hidden": true
+            },
+            "file43.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Klot vyrop trim dle sorz zep.",
+                "hidden": false
+            },
+            "file44.txt": {
+                "type": "text",
+                "size": 40,
+                "data": "Wrom jembl qlind vort wuf lizo.",
+                "hidden": true
+            },
+            "file45.txt": {
+                "type": "text",
+                "size": 45,
+                "data": "Trox wemp sizel qurt vrent mopti.",
+                "hidden": false
+            },
+            "file46.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Frig zor mel drim zalpto kim.",
+                "hidden": true
+            },
+            "file47.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Kepl zot veq filn dre xompli nop.",
+                "hidden": false
+            },
+            "file48.txt": {
+                "type": "text",
+                "size": 26,
+                "data": "Plint krump gel xorz dap.",
+                "hidden": true
+            },
+            "file49.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Glept vort qi minq ven zot klim.",
+                "hidden": false
+            },
+            "file50.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Jeb gork plin xim verql dor.",
+                "hidden": false
+            },
+            "file51.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Xelt burp foin vrit zam trog lo.",
+                "hidden": false
+            },
+            "file52.txt": {
+                "type": "text",
+                "size": 37,
+                "data": "Brimp clorpy vink trem gax loy.",
+                "hidden": true
+            },
+            "file53.txt": {
+                "type": "text",
+                "size": 40,
+                "data": "Klort pix fem yori vart drem.",
+                "hidden": false
+            },
+            "file54.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Vrop telq zonp jer skrit ply.",
+                "hidden": true
+            },
+            "file55.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Wink glerp zot myn crib vop.",
+                "hidden": false
+            },
+            "file56.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Dext xen prub ralk zin fwor.",
+                "hidden": true
+            },
+            "file57.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Blurx zong klem fry lokt pzo.",
+                "hidden": false
+            },
+            "file58.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Gnim brol sax orty quink pled.",
+                "hidden": true
+            },
+            "file59.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Fropt yert primq zoft cralk.",
+                "hidden": false
+            },
+            "file60.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Wek zonpl drimt blax porf gino.",
+                "hidden": false
+            },
+            "file61.txt": {
+                "type": "text",
+                "size": 41,
+                "data": "Jorp kin zegm fwer kolt dru zap.",
+                "hidden": true
+            },
+            "file62.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Lerp bret zot qworp kra biopt.",
+                "hidden": false
+            },
+            "file63.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Nemp corly flin dex prov zirt.",
+                "hidden": true
+            },
+            "file64.txt": {
+                "type": "text",
+                "size": 44,
+                "data": "Slet verx blin zog kwolt breq nat.",
+                "hidden": false
+            },
+            "file65.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Drub yext plorf min trev.",
+                "hidden": true
+            },
+            "file66.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Mep zoften rilk bly trap glec.",
+                "hidden": false
+            },
+            "file67.txt": {
+                "type": "text",
+                "size": 47,
+                "data": "Klint wrop zug kevt bert tol xy qi.",
+                "hidden": true
+            },
+            "file68.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Brip wext klib zoft troq glec bris.",
+                "hidden": false
+            },
+            "file69.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Gler timply brant zoply lurt.",
+                "hidden": false
+            },
+            "file70.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Jilv dorq frem kalp ze fun.",
+                "hidden": true
+            },
+            "file71.txt": {
+                "type": "text",
+                "size": 45,
+                "data": "Frig bloqy zonv klerp trom wip gax.",
+                "hidden": false
+            },
+            "file72.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Vept grin slorp tomp blor zirt.",
+                "hidden": true
+            },
+            "file73.txt": {
+                "type": "text",
+                "size": 50,
+                "data": "Klom tjer frogt xal jemi tretx za.",
+                "hidden": false
+            },
+            "file74.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Nex drav koch frem linx dor.",
+                "hidden": true
+            },
+            "file75.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Bropt grem wix telq mopk",
+                "hidden": false
+            },
+            "file76.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Lork fimt blim qorp vemp quin.",
+                "hidden": false
+            },
+            "file77.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Klix bron worp frot lir blo.",
+                "hidden": true
+            },
+            "file78.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Vept gril soxi brom klex qum.",
+                "hidden": false
+            },
+            "file79.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Trom bilx qworp lurg blon.",
+                "hidden": false
+            },
+            "file80.txt": {
+                "type": "text",
+                "size": 43,
+                "data": "Blet xin trobt flug vrak glim drez.",
+                "hidden": true
+            },
+            "file81.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Nolk brofn flib murt vek zorn.",
+                "hidden": false
+            },
+            "file82.txt": {
+                "type": "text",
+                "size": 46,
+                "data": "Prig jolt wem fimt korp ze drad wren.",
+                "hidden": true
+            },
+            "file83.txt": {
+                "type": "text",
+                "size": 40,
+                "data": "Praz zolm brink vok grerp xi jot.",
+                "hidden": false
+            },
+            "file84.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Ylom gert jot vim troq brek.",
+                "hidden": true
+            },
+            "file85.txt": {
+                "type": "text",
+                "size": 48,
+                "data": "Drip florn blo xi vamp werp gor xim.",
+                "hidden": false
+            },
+            "file86.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Relt trog fit klen zom lert.",
+                "hidden": true
+            },
+            "file87.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Mork vem klorp fren brent xor.",
+                "hidden": false
+            },
+            "file88.txt": {
+                "type": "text",
+                "size": 45,
+                "data": "Wek brin qlep trogt zim for len blim.",
+                "hidden": true
+            },
+            "file89.txt": {
+                "type": "text",
+                "size": 37,
+                "data": "Grept zalp zum kren brant dol.",
+                "hidden": false
+            },
+            "file90.txt": {
+                "type": "text",
+                "size": 50,
+                "data": "Nir bront wem kraj lox grom twor blep.",
+                "hidden": false
+            },
+            "file91.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Prik breq xil kern domp frup.",
+                "hidden": true
+            },
+            "file92.txt": {
+                "type": "text",
+                "size": 49,
+                "data": "Driz wept gril tropt klom denf jop.",
+                "hidden": false
+            },
+            "file93.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Qlor brex finm trosp vlek krep.",
+                "hidden": true
+            },
+            "file94.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Brig xent plix klor drez fimt.",
+                "hidden": false
+            },
+            "file95.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Trimp rel bopq wext krez fimt von.",
+                "hidden": true
+            },
+            "file96.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Drun wepx golt vorx yim koch.",
+                "hidden": false
+            },
+            "file97.txt": {
+                "type": "text",
+                "size": 37,
+                "data": "Gerk plet troft pzo xim yol qrat.",
+                "hidden": true
+            },
+            "file98.txt": {
+                "type": "text",
+                "size": 44,
+                "data": "Jilk bren prol vort grex xim deno.",
+                "hidden": false
+            },
+            "file99.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Qyot brem trof kilt plar yop.",
+                "hidden": true
+            },
+            "file100.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Xom fleb troz vinp brep glim zarn.",
+                "hidden": false
+            }
+
+        }
+    },
+    {
+        "level":1.2,
+        "directory": {
+            "file1.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Ado lorum zapu kyred sqla mknoi rt.",
+                "hidden": false
+            },
+            "file2.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Yolk trab invo carko we fluhp daz.",
+                "hidden": true
+            },
+            "file3.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Treq vi prokl myter zgurt hy plo.",
+                "hidden": false
+            },
+            "file4.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Ghrip kelmun fas proqupt xyz.",
+                "hidden": true
+            },
+            "file5.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Stiko ronp qerta skaal mop denti.",
+                "hidden": false
+            },
+            "file6.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Dint werg clopo frunt ozimo.",
+                "hidden": true
+            },
+            "file7.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Meq zor fluna kark lem frolp xy.",
+                "hidden": false
+            },
+            "file8.txt": {
+                "type": "text",
+                "size": 27,
+                "data": "Zing krolp ba lom trosp wex.",
+                "hidden": true
+            },
+            "file9.txt": {
+                "type": "text",
+                "size": 43,
+                "data": "Plit vex za krunb yert biot qastor ga.",
+                "hidden": false
+            },
+            "file10.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Lorbit krak mesoth yon wimex.",
+                "hidden": false
+            },
+            "file11.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Treql bemul zopent fy kropt xrui.",
+                "hidden": true
+            },
+            "file12.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Muz zwolk danf quin slert wekla.",
+                "hidden": false
+            },
+            "file13.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Jorly met psym porp grafd lint.",
+                "hidden": true
+            },
+            "file14.txt": {
+                "type": "text",
+                "size": 40,
+                "data": "Rocha flink trodol vemp qizmo tzel.",
+                "hidden": false
+            },
+            "file15.txt": {
+                "type": "text",
+                "size": 41,
+                "data": "Qinta jrot wefrud qal zepho vambol.",
+                "hidden": true
+            },
+            "file16.txt": {
+                "type": "text",
+                "size": 57,
+                "data": "ASOASO sasasassas29njw",
+                "hidden": false
+            },
+            "file17.txt": {
+                "type": "text",
+                "size": 50,
+                "data": "Klort zan trimb zot lexpor dew git vrixpa.",
+                "hidden": false
+            },
+            "file18.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Cromp veq pilto frant wibz qnap jilo.",
+                "hidden": true
+            },
+            "file19.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Klap yino driz wrold vept xrem tuti.",
+                "hidden": false
+            },
+            "file20.txt": {
+                "type": "text",
+                "size": 47,
+                "data": "Frund vek qert yolm benz wopt zeo drz.",
+                "hidden": true
+            },
+            "file21.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Vi drap tombl zetir qlim jax.",
+                "hidden": false
+            },
+            "file22.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Florn wim zatei bhrot tup nezi.",
+                "hidden": true
+            },
+            "file23.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Sronp ke volem uzni trolg faz.",
+                "hidden": false
+            },
+            "file24.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Prit zolpl varg flut brumi nzer.",
+                "hidden": false
+            },
+            "file25.txt": {
+                "type": "text",
+                "size": 27,
+                "data": "Queld wynor gamt onip slort.",
+                "hidden": true
+            },
+            "file26.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Drak fulem gri zop nit vaq ponk.",
+                "hidden": false
+            },
+            "file27.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Ferq polo xan vet umbi trokd zel.",
+                "hidden": true
+            },
+            "file28.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Broxi qat fermin solq zutp nizg ket.",
+                "hidden": false
+            },
+            "file29.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Mink tox zarto proz fom treqp vle rto.",
+                "hidden": true
+            },
+            "file30.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Vert son kla xwoly pex mron.",
+                "hidden": false
+            },
+            "file31.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Cront vak pix qwerp soz trib.",
+                "hidden": false
+            },
+            "file32.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Fyron gropli vemt kri prozd yolm.",
+                "hidden": true
+            },
+            "file33.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Furt bzep tronq jorl den kiq.",
+                "hidden": false
+            },
+            "file34.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Wex ziop qlant mur kry tze.",
+                "hidden": true
+            },
+            "file35.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Brel doxi curn mimble zoprt crosl.",
+                "hidden": false
+            },
+            "file36.txt": {
+                "type": "text",
+                "size": 44,
+                "data": "Grept plun zor kamix nart wexr toi.",
+                "hidden": true
+            },
+            "file37.txt": {
+                "type": "text",
+                "size": 37,
+                "data": "Pley ronf gilq tram vrox plint.",
+                "hidden": false
+            },
+            "file38.txt": {
+                "type": "text",
+                "size": 46,
+                "data": "Wrimp zento quarp plisk to minx zel.",
+                "hidden": true
+            },
+            "file39.txt": {
+                "type": "text",
+                "size": 52,
+                "data": "Vorkle trom zark pen wex jot golb.",
+                "hidden": false
+            },
+            "file40.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Klemp dart fo qi vopt nex ply.",
+                "hidden": true
+            },
+            "file41.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Tropt mirm bleex vot glib zex.",
+                "hidden": false
+            },
+            "file42.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Nyrok vesk tripl zat glurm qorx.",
+                "hidden": true
+            },
+            "file43.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Klot vyrop trim dle sorz zep.",
+                "hidden": false
+            },
+            "file44.txt": {
+                "type": "text",
+                "size": 40,
+                "data": "Wrom jembl qlind vort wuf lizo.",
+                "hidden": true
+            },
+            "file45.txt": {
+                "type": "text",
+                "size": 45,
+                "data": "Trox wemp sizel qurt vrent mopti.",
+                "hidden": false
+            },
+            "file46.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Frig zor mel drim zalpto kim.",
+                "hidden": true
+            },
+            "file47.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Kepl zot veq filn dre xompli nop.",
+                "hidden": false
+            },
+            "file48.txt": {
+                "type": "text",
+                "size": 26,
+                "data": "Plint krump gel xorz dap.",
+                "hidden": true
+            },
+            "file49.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Glept vort qi minq ven zot klim.",
+                "hidden": false
+            },
+            "file50.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Jeb gork plin xim verql dor.",
+                "hidden": false
+            },
+            "file51.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Xelt burp foin vrit zam trog lo.",
+                "hidden": false
+            },
+            "file52.txt": {
+                "type": "text",
+                "size": 37,
+                "data": "Brimp clorpy vink trem gax loy.",
+                "hidden": true
+            },
+            "file53.txt": {
+                "type": "text",
+                "size": 40,
+                "data": "Klort pix fem yori vart drem.",
+                "hidden": false
+            },
+            "file54.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Vrop telq zonp jer skrit ply.",
+                "hidden": true
+            },
+            "file55.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Wink glerp zot myn crib vop.",
+                "hidden": false
+            },
+            "file56.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Dext xen prub ralk zin fwor.",
+                "hidden": true
+            },
+            "file57.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Blurx zong klem fry lokt pzo.",
+                "hidden": false
+            },
+            "file58.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Gnim brol sax orty quink pled.",
+                "hidden": true
+            },
+            "file59.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Fropt yert primq zoft cralk.",
+                "hidden": false
+            },
+            "file60.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Wek zonpl drimt blax porf gino.",
+                "hidden": false
+            },
+            "file61.txt": {
+                "type": "text",
+                "size": 41,
+                "data": "Jorp kin zegm fwer kolt dru zap.",
+                "hidden": true
+            },
+            "file62.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Lerp bret zot qworp kra biopt.",
+                "hidden": false
+            },
+            "file63.txt": {
+                "type": "text",
+                "size": 14,
+                "data": "This is your flag: ${FLAG}",
+                "hidden": true
+            },
+            "file64.txt": {
+                "type": "text",
+                "size": 44,
+                "data": "Slet verx blin zog kwolt breq nat.",
+                "hidden": false
+            },
+            "file65.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Drub yext plorf min trev.",
+                "hidden": true
+            },
+            "file66.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Mep zoften rilk bly trap glec.",
+                "hidden": false
+            },
+            "file67.txt": {
+                "type": "text",
+                "size": 47,
+                "data": "Klint wrop zug kevt bert tol xy qi.",
+                "hidden": true
+            },
+            "file68.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Brip wext klib zoft troq glec bris.",
+                "hidden": false
+            },
+            "file69.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Gler timply brant zoply lurt.",
+                "hidden": false
+            },
+            "file70.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Jilv dorq frem kalp ze fun.",
+                "hidden": true
+            },
+            "file71.txt": {
+                "type": "text",
+                "size": 45,
+                "data": "Frig bloqy zonv klerp trom wip gax.",
+                "hidden": false
+            },
+            "file72.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Vept grin slorp tomp blor zirt.",
+                "hidden": true
+            },
+            "file73.txt": {
+                "type": "text",
+                "size": 50,
+                "data": "Klom tjer frogt xal jemi tretx za.",
+                "hidden": false
+            },
+            "file74.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Nex drav koch frem linx dor.",
+                "hidden": true
+            },
+            "file75.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Bropt grem wix telq mopk",
+                "hidden": false
+            },
+            "file76.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Lork fimt blim qorp vemp quin.",
+                "hidden": false
+            },
+            "file77.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Klix bron worp frot lir blo.",
+                "hidden": true
+            },
+            "file78.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Vept gril soxi brom klex qum.",
+                "hidden": false
+            },
+            "file79.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Trom bilx qworp lurg blon.",
+                "hidden": false
+            },
+            "file80.txt": {
+                "type": "text",
+                "size": 43,
+                "data": "Blet xin trobt flug vrak glim drez.",
+                "hidden": true
+            },
+            "file81.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Nolk brofn flib murt vek zorn.",
+                "hidden": false
+            },
+            "file82.txt": {
+                "type": "text",
+                "size": 46,
+                "data": "Prig jolt wem fimt korp ze drad wren.",
+                "hidden": true
+            },
+            "file83.txt": {
+                "type": "text",
+                "size": 40,
+                "data": "Praz zolm brink vok grerp xi jot.",
+                "hidden": false
+            },
+            "file84.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Ylom gert jot vim troq brek.",
+                "hidden": true
+            },
+            "file85.txt": {
+                "type": "text",
+                "size": 48,
+                "data": "Drip florn blo xi vamp werp gor xim.",
+                "hidden": false
+            },
+            "file86.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Relt trog fit klen zom lert.",
+                "hidden": true
+            },
+            "file87.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Mork vem klorp fren brent xor.",
+                "hidden": false
+            },
+            "file88.txt": {
+                "type": "text",
+                "size": 45,
+                "data": "Wek brin qlep trogt zim for len blim.",
+                "hidden": true
+            },
+            "file89.txt": {
+                "type": "text",
+                "size": 37,
+                "data": "Grept zalp zum kren brant dol.",
+                "hidden": false
+            },
+            "file90.txt": {
+                "type": "text",
+                "size": 50,
+                "data": "Nir bront wem kraj lox grom twor blep.",
+                "hidden": false
+            },
+            "file91.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Prik breq xil kern domp frup.",
+                "hidden": true
+            },
+            "file92.txt": {
+                "type": "text",
+                "size": 49,
+                "data": "Driz wept gril tropt klom denf jop.",
+                "hidden": false
+            },
+            "file93.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Qlor brex finm trosp vlek krep.",
+                "hidden": true
+            },
+            "file94.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Brig xent plix klor drez fimt.",
+                "hidden": false
+            },
+            "file95.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Trimp rel bopq wext krez fimt von.",
+                "hidden": true
+            },
+            "file96.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Drun wepx golt vorx yim koch.",
+                "hidden": false
+            },
+            "file97.txt": {
+                "type": "text",
+                "size": 37,
+                "data": "Gerk plet troft pzo xim yol qrat.",
+                "hidden": true
+            },
+            "file98.txt": {
+                "type": "text",
+                "size": 44,
+                "data": "Jilk bren prol vort grex xim deno.",
+                "hidden": false
+            },
+            "file99.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Qyot brem trof kilt plar yop.",
+                "hidden": true
+            },
+            "file100.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Xom fleb troz vinp brep glim zarn.",
+                "hidden": false
+            }
+        }
+    },
+    {
+        "level":1.3,
+        "directory": {
+            "file1.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Ado lorum zapu kyred sqla mknoi rt.",
+                "hidden": false
+            },
+            "file2.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Yolk trab invo carko we fluhp daz.",
+                "hidden": true
+            },
+            "file3.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Treq vi prokl myter zgurt hy plo.",
+                "hidden": false
+            },
+            "file4.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Ghrip kelmun fas proqupt xyz.",
+                "hidden": true
+            },
+            "file5.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Stiko ronp qerta skaal mop denti.",
+                "hidden": false
+            },
+            "file6.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Dint werg clopo frunt ozimo.",
+                "hidden": true
+            },
+            "file7.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Meq zor fluna kark lem frolp xy.",
+                "hidden": false
+            },
+            "file8.txt": {
+                "type": "text",
+                "size": 27,
+                "data": "Zing krolp ba lom trosp wex.",
+                "hidden": true
+            },
+            "file9.txt": {
+                "type": "text",
+                "size": 43,
+                "data": "Plit vex za krunb yert biot qastor ga.",
+                "hidden": false
+            },
+            "file10.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Lorbit krak mesoth yon wimex.",
+                "hidden": false
+            },
+            "file11.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Treql bemul zopent fy kropt xrui.",
+                "hidden": true
+            },
+            "file12.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Muz zwolk danf quin slert wekla.",
+                "hidden": false
+            },
+            "file13.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Jorly met psym porp grafd lint.",
+                "hidden": true
+            },
+            "file14.txt": {
+                "type": "text",
+                "size": 40,
+                "data": "Rocha flink trodol vemp qizmo tzel.",
+                "hidden": false
+            },
+            "file15.txt": {
+                "type": "text",
+                "size": 41,
+                "data": "Qinta jrot wefrud qal zepho vambol.",
+                "hidden": true
+            },
+            "file16.txt": {
+                "type": "text",
+                "size": 57,
+                "data": "ASOASO sasasassas29njw",
+                "hidden": false
+            },
+            "file17.txt": {
+                "type": "text",
+                "size": 50,
+                "data": "Klort zan trimb zot lexpor dew git vrixpa.",
+                "hidden": false
+            },
+            "file18.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Cromp veq pilto frant wibz qnap jilo.",
+                "hidden": true
+            },
+            "file19.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Klap yino driz wrold vept xrem tuti.",
+                "hidden": false
+            },
+            "file20.txt": {
+                "type": "text",
+                "size": 47,
+                "data": "Frund vek qert yolm benz wopt zeo drz.",
+                "hidden": true
+            },
+            "file21.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Vi drap tombl zetir qlim jax.",
+                "hidden": false
+            },
+            "file22.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Florn wim zatei bhrot tup nezi.",
+                "hidden": true
+            },
+            "file23.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Sronp ke volem uzni trolg faz.",
+                "hidden": false
+            },
+            "file24.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Prit zolpl varg flut brumi nzer.",
+                "hidden": false
+            },
+            "file25.txt": {
+                "type": "text",
+                "size": 27,
+                "data": "Queld wynor gamt onip slort.",
+                "hidden": true
+            },
+            "file26.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Drak fulem gri zop nit vaq ponk.",
+                "hidden": false
+            },
+            "file27.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Ferq polo xan vet umbi trokd zel.",
+                "hidden": true
+            },
+            "file28.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Broxi qat fermin solq zutp nizg ket.",
+                "hidden": false
+            },
+            "file29.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Mink tox zarto proz fom treqp vle rto.",
+                "hidden": true
+            },
+            "file30.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Vert son kla xwoly pex mron.",
+                "hidden": false
+            },
+            "file31.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Cront vak pix qwerp soz trib.",
+                "hidden": false
+            },
+            "file32.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Fyron gropli vemt kri prozd yolm.",
+                "hidden": true
+            },
+            "file33.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Furt bzep tronq jorl den kiq.",
+                "hidden": false
+            },
+            "file34.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Wex ziop qlant mur kry tze.",
+                "hidden": true
+            },
+            "file35.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Brel doxi curn mimble zoprt crosl.",
+                "hidden": false
+            },
+            "file36.txt": {
+                "type": "text",
+                "size": 44,
+                "data": "Grept plun zor kamix nart wexr toi.",
+                "hidden": true
+            },
+            "file37.txt": {
+                "type": "text",
+                "size": 37,
+                "data": "Pley ronf gilq tram vrox plint.",
+                "hidden": false
+            },
+            "file38.txt": {
+                "type": "text",
+                "size": 46,
+                "data": "Wrimp zento quarp plisk to minx zel.",
+                "hidden": true
+            },
+            "file39.txt": {
+                "type": "text",
+                "size": 52,
+                "data": "Vorkle trom zark pen wex jot golb.",
+                "hidden": false
+            },
+            "file40.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Klemp dart fo qi vopt nex ply.",
+                "hidden": true
+            },
+            "file41.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Tropt mirm bleex vot glib zex.",
+                "hidden": false
+            },
+            "file42.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Nyrok vesk tripl zat glurm qorx.",
+                "hidden": true
+            },
+            "file43.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Klot vyrop trim dle sorz zep.",
+                "hidden": false
+            },
+            "file44.txt": {
+                "type": "text",
+                "size": 40,
+                "data": "Wrom jembl qlind vort wuf lizo.",
+                "hidden": true
+            },
+            "file45.txt": {
+                "type": "text",
+                "size": 45,
+                "data": "Trox wemp sizel qurt vrent mopti.",
+                "hidden": false
+            },
+            "file46.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Frig zor mel drim zalpto kim.",
+                "hidden": true
+            },
+            "file47.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Kepl zot veq filn dre xompli nop.",
+                "hidden": false
+            },
+            "file48.txt": {
+                "type": "text",
+                "size": 26,
+                "data": "Plint krump gel xorz dap.",
+                "hidden": true
+            },
+            "file49.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Glept vort qi minq ven zot klim.",
+                "hidden": false
+            },
+            "file50.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Jeb gork plin xim verql dor.",
+                "hidden": false
+            },
+            "file51.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Xelt burp foin vrit zam trog lo.",
+                "hidden": false
+            },
+            "file52.txt": {
+                "type": "text",
+                "size": 37,
+                "data": "Brimp clorpy vink trem gax loy.",
+                "hidden": true
+            },
+            "file53.txt": {
+                "type": "text",
+                "size": 40,
+                "data": "Klort pix fem yori vart drem.",
+                "hidden": false
+            },
+            "file54.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Vrop telq zonp jer skrit ply.",
+                "hidden": true
+            },
+            "file55.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Wink glerp zot myn crib vop.",
+                "hidden": false
+            },
+            "file56.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Dext xen prub ralk zin fwor.",
+                "hidden": true
+            },
+            "file57.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Blurx zong klem fry lokt pzo.",
+                "hidden": false
+            },
+            "file58.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Gnim brol sax orty quink pled.",
+                "hidden": true
+            },
+            "file59.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Fropt yert primq zoft cralk.",
+                "hidden": false
+            },
+            "file60.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Wek zonpl drimt blax porf gino.",
+                "hidden": false
+            },
+            "file61.txt": {
+                "type": "text",
+                "size": 41,
+                "data": "Jorp kin zegm fwer kolt dru zap.",
+                "hidden": true
+            },
+            "file62.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Lerp bret zot qworp kra biopt.",
+                "hidden": false
+            },
+            "file63.txt": {
+                "type": "text",
+                "size": 63,
+                "data": "Lerp bret zot qworp kra biopt.",
+                "hidden": true
+            },
+            "file64.txt": {
+                "type": "text",
+                "size": 44,
+                "data": "Slet verx blin zog kwolt breq nat.",
+                "hidden": false
+            },
+            "file65.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Drub yext plorf min trev.",
+                "hidden": true
+            },
+            "file66.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Mep zoften rilk bly trap glec.",
+                "hidden": false
+            },
+            "file67.txt": {
+                "type": "text",
+                "size": 47,
+                "data": "Klint wrop zug kevt bert tol xy qi.",
+                "hidden": true
+            },
+            "file68.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Brip wext klib zoft troq glec bris.",
+                "hidden": false
+            },
+            "file69.txt": {
+                "type": "text",
+                "size": 30,
+                "data": "Gler timply brant zoply lurt.",
+                "hidden": false
+            },
+            "file70.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Jilv dorq frem kalp ze fun.",
+                "hidden": true
+            },
+            "file71.txt": {
+                "type": "text",
+                "size": 45,
+                "data": "Frig bloqy zonv klerp trom wip gax.",
+                "hidden": false
+            },
+            "file72.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Vept grin slorp tomp blor zirt.",
+                "hidden": true
+            },
+            "file73.txt": {
+                "type": "text",
+                "size": 50,
+                "data": "Klom tjer frogt xal jemi tretx za.",
+                "hidden": false
+            },
+            "file74.txt": {
+                "type": "text",
+                "size": 28,
+                "data": "Nex drav koch frem linx dor.",
+                "hidden": true
+            },
+            "file75.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Bropt grem wix telq mopk",
+                "hidden": false
+            },
+            "file76.txt": {
+                "type": "text",
+                "size": 36,
+                "data": "Lork fimt blim qorp vemp quin.",
+                "hidden": false
+            },
+            "file77.txt": {
+                "type": "text",
+                "size": 14,
+                "data": "This is your flag: ${FLAG}",
+                "hidden": true
+            },
+            "file78.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Vept gril soxi brom klex qum.",
+                "hidden": false
+            },
+            "file79.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Trom bilx qworp lurg blon.",
+                "hidden": false
+            },
+            "file80.txt": {
+                "type": "text",
+                "size": 43,
+                "data": "Blet xin trobt flug vrak glim drez.",
+                "hidden": true
+            },
+            "file81.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Nolk brofn flib murt vek zorn.",
+                "hidden": false
+            },
+            "file82.txt": {
+                "type": "text",
+                "size": 46,
+                "data": "Prig jolt wem fimt korp ze drad wren.",
+                "hidden": true
+            },
+            "file83.txt": {
+                "type": "text",
+                "size": 40,
+                "data": "Praz zolm brink vok grerp xi jot.",
+                "hidden": false
+            },
+            "file84.txt": {
+                "type": "text",
+                "size": 39,
+                "data": "Ylom gert jot vim troq brek.",
+                "hidden": true
+            },
+            "file85.txt": {
+                "type": "text",
+                "size": 48,
+                "data": "Drip florn blo xi vamp werp gor xim.",
+                "hidden": false
+            },
+            "file86.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Relt trog fit klen zom lert.",
+                "hidden": true
+            },
+            "file87.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Mork vem klorp fren brent xor.",
+                "hidden": false
+            },
+            "file88.txt": {
+                "type": "text",
+                "size": 45,
+                "data": "Wek brin qlep trogt zim for len blim.",
+                "hidden": true
+            },
+            "file89.txt": {
+                "type": "text",
+                "size": 37,
+                "data": "Grept zalp zum kren brant dol.",
+                "hidden": false
+            },
+            "file90.txt": {
+                "type": "text",
+                "size": 50,
+                "data": "Nir bront wem kraj lox grom twor blep.",
+                "hidden": false
+            },
+            "file91.txt": {
+                "type": "text",
+                "size": 34,
+                "data": "Prik breq xil kern domp frup.",
+                "hidden": true
+            },
+            "file92.txt": {
+                "type": "text",
+                "size": 49,
+                "data": "Driz wept gril tropt klom denf jop.",
+                "hidden": false
+            },
+            "file93.txt": {
+                "type": "text",
+                "size": 31,
+                "data": "Qlor brex finm trosp vlek krep.",
+                "hidden": true
+            },
+            "file94.txt": {
+                "type": "text",
+                "size": 32,
+                "data": "Brig xent plix klor drez fimt.",
+                "hidden": false
+            },
+            "file95.txt": {
+                "type": "text",
+                "size": 42,
+                "data": "Trimp rel bopq wext krez fimt von.",
+                "hidden": true
+            },
+            "file96.txt": {
+                "type": "text",
+                "size": 35,
+                "data": "Drun wepx golt vorx yim koch.",
+                "hidden": false
+            },
+            "file97.txt": {
+                "type": "text",
+                "size": 37,
+                "data": "Gerk plet troft pzo xim yol qrat.",
+                "hidden": true
+            },
+            "file98.txt": {
+                "type": "text",
+                "size": 44,
+                "data": "Jilk bren prol vort grex xim deno.",
+                "hidden": false
+            },
+            "file99.txt": {
+                "type": "text",
+                "size": 29,
+                "data": "Qyot brem trof kilt plar yop.",
+                "hidden": true
+            },
+            "file100.txt": {
+                "type": "text",
+                "size": 38,
+                "data": "Xom fleb troz vinp brep glim zarn.",
+                "hidden": false
+            }
+
+        }
+    },
+    {
+        "level": 2.1,
+        "directory": {            
+            "hello.txt": {
             "type": "text",
             "size": 33,
             "data": "Welcome to CrypticHunt Online CTF! This is level 2.",
@@ -58,6 +1876,967 @@
         }}
     },
     {
+        "level": 2.2,
+        "directory": {            
+            "hello.txt": {
+            "type": "text",
+            "size": 33,
+            "data": "Welcome to CrypticHunt Online CTF! This is level 2.",
+            "hidden": false
+        },
+        "home": {
+            "type": "dir",
+            "size": 22,
+            "hidden": false
+        },        
+        "cryptic": {
+            ".flag.txt": {
+                "type": "text",
+                "size": 22,
+                "hidden": true
+            },
+            "-flag.txt": {
+                "type": "text",
+                "size": 22,
+                "hidden": false
+            },
+            "type": "dir",
+            "size": 22,
+            "hidden": false
+        },
+        "README" : {
+            "data": "In this level, you will be needed to retrieve your flag which is split into 2 files. 1st part in a hidden file and 2nd part in a file starting with -.",
+            "type": "text",
+            "size": 40,
+            "hidden": false
+        }}
+    },
+    {
+        "level": 2.3,
+        "directory": {            
+            "hello.txt": {
+            "type": "text",
+            "size": 33,
+            "data": "Welcome to CrypticHunt Online CTF! This is level 2.",
+            "hidden": false
+        },
+        "home": {
+            "type": "dir",
+            "size": 22,
+            "hidden": false
+        },
+        ".flag.txt": {
+            "type": "text",
+            "size": 22,
+            "hidden": true
+        },
+        "-flag.txt": {
+            "type": "text",
+            "size": 22,
+            "hidden": false
+        },
+        "README" : {
+            "data": "In this level, you will be needed to retrieve your flag which is split into 2 files. 1st part in a hidden file and 2nd part in a file starting with -.",
+            "type": "text",
+            "size": 40,
+            "hidden": false
+        }}
+    },
+    {
+        "level": 3.1,
+        "directory": {
+            "hello.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Welcome to CrypticHunt Online CTF! This is level 3.",
+                "hidden": false
+            },
+            "folder1": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder2": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder3": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder4": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder5": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder6": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder7": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor st amet"
+                    },
+                    "this file has spaces in the name": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "executable": false,
+                        "data": "This is your flag: ${FLAG}"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder8": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder9": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder10": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "README": {
+                "type": "text",
+                "size": 40,
+                "hidden": false,
+                "data": "Locate a non-executable file named 'this file has spaces in the name' across multiple folders. This file contains your flag."
+            }
+        }
+    },
+    {
+        "level": 3.2,
+        "directory": {
+            "hello.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Welcome to CrypticHunt Online CTF! This is level 3.",
+                "hidden": false
+            },
+            "folder1": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder2": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder3": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder4": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder5": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder6": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder7": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor st amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder8": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder9": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "this file has spaces in the name": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "executable": false,
+                        "data": "This is your flag: ${FLAG}"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "folder10": {
+                "subfolder1": {
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                },
+                "type": "dir",
+                "size": 40,
+                "hidden": false
+            },
+            "README": {
+                "type": "text",
+                "size": 40,
+                "hidden": false,
+                "data": "Locate a non-executable file named 'this file has spaces in the name' across multiple folders. This file contains your flag."
+            }
+        }
+    },    
+    {
+        "level": 3.3,
+        "directory": {
+            "hello.txt": {
+                "type": "text",
+                "size": 33,
+                "data": "Welcome to CrypticHunt Online CTF! This is level 3.",
+                "hidden": false
+            },
+            "folder1": {
+                "type": "dir",
+                "size": 40,
+                "hidden": false,
+                "subfolder1": {
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false,
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    }
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                }
+            },
+            "folder2": {
+                "type": "dir",
+                "size": 40,
+                "hidden": false,
+                "subfolder1": {
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false,
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    }
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                }
+            },
+            "folder3": {
+                "type": "dir",
+                "size": 40,
+                "hidden": false,
+                "subfolder1": {
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false,
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    }
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                }
+            },
+            "folder4": {
+                "type": "dir",
+                "size": 40,
+                "hidden": false,
+                "subfolder1": {
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false,
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    }
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                }
+            },
+            "folder5": {
+                "type": "dir",
+                "size": 40,
+                "hidden": false,
+                "subfolder1": {
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false,
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "this file has spaces in the name": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "executable": false,
+                        "data": "This is your flag: ${FLAG}"
+                    }
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                }
+            },
+            "folder6": {
+                "type": "dir",
+                "size": 40,
+                "hidden": false,
+                "subfolder1": {
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false,
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    }
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                }
+            },
+            "folder7": {
+                "type": "dir",
+                "size": 40,
+                "hidden": false,
+                "subfolder1": {
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false,
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor st amet"
+                    }
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                }
+            },
+            "folder8": {
+                "type": "dir",
+                "size": 40,
+                "hidden": false,
+                "subfolder1": {
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false,
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    }
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                }
+            },
+            "folder9": {
+                "type": "dir",
+                "size": 40,
+                "hidden": false,
+                "subfolder1": {
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false,
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    }
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                }
+            },
+            "folder10": {
+                "type": "dir",
+                "size": 40,
+                "hidden": false,
+                "subfolder1": {
+                    "type": "dir",
+                    "size": 40,
+                    "hidden": false,
+                    "file1.txt": {
+                        "type": "text",
+                        "size": 10,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    },
+                    "file2.txt": {
+                        "type": "text",
+                        "size": 30,
+                        "hidden": false,
+                        "data": "Lorem ipsum dolor sit amet"
+                    }
+                },
+                "file1.txt": {
+                    "type": "text",
+                    "size": 10,
+                    "hidden": false,
+                    "data": "Lorem ipsum dolor sit amet"
+                }
+            },
+            "README": {
+                "type": "text",
+                "size": 40,
+                "hidden": false,
+                "data": "Locate a non-executable file named 'this file has spaces in the name' across multiple folders. This file contains your flag."
+            }
+        }
+    },    
+    {
         "level":5.1,
         "directory":{
             "hello.txt": {
@@ -84,7 +2863,7 @@
                 "hidden": false
             },
             "README" : {
-                "data": "Try asking for help from the computer.",
+                "data": "The ending might seem unusual, with characters like ‘=’ keeping everything balanced and basic.",
                 "type": "text",
                 "size": 40,
                 "hidden": false
@@ -119,7 +2898,7 @@
             },
             
             "README" : {
-                "data": "Try asking for help from the computer.",
+                "data": "The ending might seem unusual, with characters like ‘=’ keeping everything balanced and basic.",
                 "type": "text",
                 "size": 40,
                 "hidden": false
@@ -171,7 +2950,7 @@
             },
             
             "README" : {
-                "data": "Try asking for help from the computer.",
+                "data": "The ending might seem unusual, with characters like ‘=’ keeping everything balanced and basic.",
                 "type": "text",
                 "size": 40,
                 "hidden": false
@@ -221,7 +3000,10 @@
                     "size": 3987,
                     "data": "In the annals of ancient wisdom, there lies a tale of the first grapplers.\nThese were not mere fighters; they were sages and warriors alike, dedicating their lives to the mastery of both mind and body.\nThey believed the body was a vessel, crafted by the gods to endure the perils of life through strength, patience, and resolve.\n\nThe journey of a grappler was one of enlightenment and hardship.\nEach technique learned was not simply a tool but a reflection of life’s own trials.\nThe wrist lock represented control over destiny, while the leg sweep symbolized how fate could change in an instant.\nThe elders taught that the highest form of grappling was not to defeat an opponent, but to surpass one’s own limitations.\n\nLegend speaks of a scroll hidden within the Temple of the Rising Phoenix.\nIt contained a phrase so powerful that it was said to grant mastery over any adversary.\nThe scroll bore the markings of an ancient tongue, indecipherable to all but the most devoted.\nBut it was within the grasp of a single phrase that a secret lay hidden: .\n\nAs the years passed, the art of grappling spread across vast lands.\nIn the deserts to the west, tribes embraced the teachings, adapting techniques to their barren surroundings.\nEvery encounter in the sand was a battle for both honor and survival.\nTo these warriors, grappling was a dance with death, a sacred balance where one wrong step could mean the end.\n\nIn the frozen north, chieftains would duel upon icy cliffs, their breath visible in the chilling air.\nVictory in these lands was not defined by mere strength, but by one’s ability to endure.\nThey wrestled the frigid elements as much as they grappled each other.\nThe mountains echoed with the cries of those who understood that true grappling was a battle within, an eternal struggle between fear and courage.\n\nTo the east, monks practiced their grappling under the watchful eyes of towering bamboo forests.\nIn silence, they moved like water, fluid and unyielding.\nTheir discipline was unmatched, for they saw grappling as an extension of meditation.\nThey believed the true strength of a grappler was hidden in the mind.\nOnly by mastering the inner self could one hope to prevail over external challenges.\n\nThere was once a Master, who having conquered every opponent, sought wisdom beyond physical prowess.\nHe wandered through villages and valleys, challenging not men, but life itself.\nIn the end, he realized that the art of grappling was not merely a combat technique.\nIt was a philosophy, an understanding of life’s fragile nature and one’s ability to influence it.\n\nThe ancient flag-bearers of the grappling arts carried no weapons, yet they commanded respect.\nTheir lives were the embodiment of the principles they cherished.\nFor them, the teachings were sacred, bound not by words, but by action.\nThey knew that the legacy of a grappler lay not in victory over others but in conquering one’s own limitations.\n\nThis chapter, drawn from the Book of Shadows, teaches us that grappling is more than combat.\nIt is a way of life, a journey through which every struggle can become a stepping stone to enlightenment.\nTo seek the is to seek knowledge itself, a pursuit worthy of those who would brave the trials that lay ahead.In the land of the silent mountains, wisdom was sought in ways that defied convention.\nThe people revered not the warriors of the sword, but those who triumphed through resilience and understanding.\n\nElders spoke of the path to enlightenment, a journey that demanded more than mere strength.\nTo them, grappling was not simply about overpowering an opponent; it was about overcoming oneself.\nEach struggle was a lesson in patience, each fall an invitation to rise stronger.\n\nAs dawn broke over the valley, disciples would gather, waiting for their Master to teach the first lesson of the day.\nThey listened as he spoke, his voice steady and calm, resonating with a truth that required no elaboration.\n'Strength lies in quietude,' he would say, 'and the greatest force is found in stillness.'\n\nLegends told of those who had journeyed to the Forest of Echoes.\nThere, under the shadows of ancient trees, they found clarity.\nIn the silence, they heard their own fears, their own doubts, and in facing them, they grew.\nThe forest was unforgiving, but it granted wisdom to those who endured.\n\nBeyond the plains, in a distant city, another art was born.\nHere, grappling was infused with elegance, every movement an expression of inner harmony.\nArtists and warriors practiced side by side, blurring the line between battle and ballet.\nThey believed the body could be molded like clay, shaped by the discipline of the mind.\n\nEven the children of the city knew the tales of ancient grapplers.\nThey would mimic the movements, testing their balance and focus, laughing at their own missteps.\nIn their innocence, they understood a profound truth:\nthat life, like grappling, was a series of falls and recoveries, each stumble a chance to learn.\n\nAcross the ocean, on an island hidden by mist, a solitary order of monks practiced an art they called 'The Still Hand.'\nThey lived by a single creed: that true power lies in gentleness.\nThey trained for years to master techniques that could disable any opponent without inflicting harm.\nIn this practice, they saw the embodiment of compassion, a philosophy that would resonate across generations.\n\nThe master of their order would teach by example, using words sparingly.\nHis actions conveyed more than speech ever could.\nThrough his calm demeanor and steady gaze, his students understood that strength, tempered with kindness, could move mountains.\n\nTo the north, in a land of snow and ice, grappling was woven into the culture.\nThe cold demanded fortitude, and so the people became as unyielding as the frozen earth.\nTo fall here was no small matter; to rise again was an act of will.\nThe elders would recount tales of those who had faced the winter's wrath and come through stronger, forged by the season’s trials.\n\nAs the stars appeared each night, they would gather around fires, sharing stories of courage and survival.\nThey honored those who had journeyed before them, understanding that every generation built upon the strength of the last.\nIn this way, the spirit of grappling endured, a legacy of resilience and wisdom passed down through time.\n\nFar to the east, along the coast where the cliffs met the endless ocean, there was a village known for its skilled grapplers.\nHere, the art was learned from observing the tides.\nJust as the waves pulled back only to surge forward with renewed force, so too did the grapplers retreat and advance in battle.\n\nTheir movements mirrored the rhythm of the sea — fluid, powerful, and unrelenting.\nThey believed each motion should have intent, each stance be as unshakable as the rocks beneath their feet.\nThe young would practice by the shore, feeling the cold water rush over them, grounding themselves against the push and pull of the waves.\n\nAmong them was an elder known as the Tidecaller, who had spent years honing her craft in solitude.\nShe spoke of grappling not as a fight, but as a dance with one's own limitations.\n'To move with the sea,' she said, 'is to understand that strength is not rigid but flows like water.'\n\nHer students learned to grapple with patience, waiting for the precise moment when balance shifted.\nIn that instant, with the calm of the ocean within them, they could unseat any opponent.\nThrough their practice, they came to see that mastery of grappling was less about conquering others and more about understanding the rhythms of life itself.\n\nIn the heart of the dense forest, where sunlight barely pierced through the thick canopy, a secluded tribe practiced grappling in the shadows.\nTheir elders taught that the forest itself was alive, watching, and teaching those who would listen.\nThey observed animals in silent combat, studying how creatures used leverage and cunning to overpower opponents many times their size.\n\nThese grapplers moved silently, with their bodies low to the ground, mimicking the panther’s stealth and the bear’s might.\nTheir training sessions were held at dusk, where the fading light forced them to rely on senses other than sight.\nWith each move, they learned patience, waiting until the last possible moment to counter, allowing their opponent's force to turn against them.\n\nThe tribe’s philosophy was simple but profound: 'Strength without wisdom is weakness.'\nThey embraced a paradoxical truth — that true power came from yielding, that victory was often achieved by giving in and waiting.\n\nHidden in the heart of the jungle, these grapplers believed in an ancient promise, a myth passed down by their ancestors.\nOne who mastered the art of forest grappling would carry the spirit of the wild within, and no adversary, no matter how formidable, could ever defeat them.\n. I think I should repeat the tale. In the annals of ancient wisdom, there lies a tale of the first grapplers.\nThese were not mere fighters; they were sages and warriors alike, dedicating their lives to the mastery of both mind and body.\nThey believed the body was a vessel, crafted by the gods to endure the perils of life through strength, patience, and resolve.\n\nThe journey of a grappler was one of enlightenment and hardship.\nEach technique learned was not simply a tool but a reflection of life’s own trials.\nThe wrist lock represented control over destiny, while the leg sweep symbolized how fate could change in an instant.\nThe elders taught that the highest form of grappling was not to defeat an opponent, but to surpass one’s own limitations.\n\nLegend speaks of a scroll hidden within the Temple of the Rising Phoenix.\nIt contained a phrase so powerful that it was said to grant mastery over any adversary.\nThe scroll bore the markings of an ancient tongue, indecipherable to all but the most devoted.\nBut it was within the grasp of a single phrase that a secret lay hidden:.\n\nAs the years passed, the art of grappling spread across vast lands.\nIn the deserts to the west, tribes embraced the teachings, adapting techniques to their barren surroundings.\nEvery encounter in the sand was a battle for both honor and survival.\nTo these warriors, grappling was a dance with death, a sacred balance where one wrong step could mean the end.\n\nIn the frozen north, chieftains would duel upon icy cliffs, their breath visible in the chilling air.\nVictory in these lands was not defined by mere strength, but by one’s ability to endure.\nThey wrestled the frigid elements as much as they grappled each other.\nThe mountains echoed with the cries of those who understood that true grappling was a battle within, an eternal struggle between fear and courage.\n\nTo the east, monks practiced their grappling under the watchful eyes of towering bamboo forests.\nIn silence, they moved like water, fluid and unyielding.\nTheir discipline was unmatched, for they saw grappling as an extension of meditation.\nThey believed the true strength of a grappler was hidden in the mind.\nOnly by mastering the inner self could one hope to prevail over external challenges.\n\nThere was once a Master, who having conquered every opponent, sought wisdom beyond physical prowess.\nHe wandered through villages and valleys, challenging not men, but life itself.\nIn the end, he realized that the art of grappling was not merely a combat technique.\nIt was a philosophy, an understanding of life’s fragile nature and one’s ability to influence it.\n\nThe ancient flag-bearers of the grappling arts carried no weapons, yet they commanded respect.\nTheir lives were the embodiment of the principles they cherished.\nFor them, the teachings were sacred, bound not by words, but by action.\nThey knew that the legacy of a grappler lay not in victory over others but in conquering one’s own limitations.\n\nThis chapter, drawn from the Book of Shadows, teaches us that grappling is more than combat.\nIt is a way of life, a journey through which every struggle can become a stepping stone to enlightenment.\nTo seek the  is to seek knowledge itself, a pursuit worthy of those who would brave the trials that lay ahead.In the land of the silent mountains, wisdom was sought in ways that defied convention.\nThe people revered not the warriors of the sword, but those who triumphed through resilience and understanding.\n\nElders spoke of the path to enlightenment, a journey that demanded more than mere strength.\nTo them, grappling was not simply about overpowering an opponent; it was about overcoming oneself.\nEach struggle was a lesson in patience, each fall an invitation to rise stronger.\n\nAs dawn broke over the valley, disciples would gather, waiting for their Master to teach the first lesson of the day.\nThey listened as he spoke, his voice steady and calm, resonating with a truth that required no elaboration.\n'Strength lies in quietude,' he would say, 'and the greatest force is found in stillness.'\n\nLegends told of those who had journeyed to the Forest of Echoes.\nThere, under the shadows of ancient trees, they found clarity.\nIn the silence, they heard their own fears, their own doubts, and in facing them, they grew.\nThe forest was unforgiving, but it granted wisdom to those who endured.\n\nBeyond the plains, in a distant city, another art was born.\nHere, grappling was infused with elegance, every movement an expression of inner harmony.\nArtists and warriors practiced side by side, blurring the line between battle and ballet.\nThey believed the body could be molded like clay, shaped by the discipline of the mind.\n\nEven the children of the city knew the tales of ancient grapplers.\nThey would mimic the movements, testing their balance and focus, laughing at their own missteps.\nIn their innocence, they understood a profound truth:\nthat life, like grappling, was a series of falls and recoveries, each stumble a chance to learn.\n\nAcross the ocean, on an island hidden by mist, a solitary order of monks practiced an art they called 'The Still Hand.'\nThey lived by a single creed: that true power lies in gentleness.\nThey trained for years to master techniques that could disable any opponent without inflicting harm.\nIn this practice, they saw the embodiment of compassion, a philosophy that would resonate across generations.\n\nThe master of their order would teach by example, using words sparingly.\nHis actions conveyed more than speech ever could.\nThrough his calm demeanor and steady gaze, his students understood that strength, tempered with kindness, could move mountains.\n\nTo the north, in a land of snow and ice, grappling was woven into the culture.\nThe cold demanded fortitude, and so the people became as unyielding as the frozen earth.\nTo fall here was no small matter; to rise again was an act of will.\nThe elders would recount tales of those who had faced the winter's wrath and come through stronger, forged by the season’s trials.\n\nAs the stars appeared each night, they would gather around fires, sharing stories of courage and survival.\nThey honored those who had journeyed before them, understanding that every generation built upon the strength of the last.\nIn this way, the spirit of grappling endured, a legacy of resilience and wisdom passed down through time.\n\nFar to the east, along the coast where the cliffs met the endless ocean, there was a village known for its skilled grapplers.\nHere, the art was learned from observing the tides.\nJust as the waves pulled back only to surge forward with renewed force, so too did the grapplers retreat and advance in battle.\n\nTheir movements mirrored the rhythm of the sea — fluid, powerful, and unrelenting.\nThey believed each motion should have intent, each stance be as unshakable as the rocks beneath their feet.\nThe young would practice by the shore, feeling the cold water rush over them, grounding themselves against the push and pull of the waves.\n\nAmong them was an elder known as the Tidecaller, who had spent years honing her craft in solitude.\nShe spoke of grappling not as a fight, but as a dance with one's own limitations.\n'To move with the sea,' she said, 'is to understand that strength is not rigid but flows like water.'\n\nHer students learned to grapple with patience, waiting for the precise moment when balance shifted.\nIn that instant, with the calm of the ocean within them, they could unseat any opponent.\nThrough their practice, they came to see that mastery of grappling was less about conquering others and more about understanding the rhythms of life itself.\n\nIn the heart of the dense forest, where sunlight barely pierced through the thick canopy, a secluded tribe practiced grappling in the shadows.\nTheir elders taught that the forest itself was alive, watching, and teaching those who would listen.\nThey observed animals in silent combat, studying how creatures used leverage and cunning to overpower opponents many times their size.\n\nThese grapplers moved silently, with their bodies low to the ground, mimicking the panther’s stealth and the bear’s might.\nTheir training sessions were held at dusk, where the fading light forced them to rely on senses other than sight.\nWith each move, they learned patience, waiting until the last possible moment to counter, allowing their opponent's force to turn against them.\n\nThe tribe’s philosophy was simple but profound: 'Strength without wisdom is weakness.'\nThey embraced a paradoxical truth — that true power came from yielding, that victory was often achieved by giving in and waiting.\n\nHidden in the heart of the jungle, these grapplers believed in an ancient promise, a myth passed down by their ancestors.\nOne who mastered the art of forest grappling would carry the spirit of the wild within, and no adversary, no matter how formidable, could ever defeat them.\n. Okay once more, last time. In the annals of ancient wisdom, there lies a tale of the first grapplers.\nThese were not mere fighters; they were sages and warriors alike, dedicating their lives to the mastery of both mind and body.\nThey believed the body was a vessel, crafted by the gods to endure the perils of life through strength, patience, and resolve.\n\nThe journey of a grappler was one of enlightenment and hardship.\nEach technique learned was not simply a tool but a reflection of life’s own trials.\nThe wrist lock represented control over destiny, while the leg sweep symbolized how fate could change in an instant.\nThe elders taught that the highest form of grappling was not to defeat an opponent, but to surpass one’s own limitations.\n\nLegend speaks of a scroll hidden within the Temple of the Rising Phoenix.\nIt contained a phrase so powerful that it was said to grant mastery over any adversary.\nThe scroll bore the markings of an ancient tongue, indecipherable to all but the most devoted.\nBut it was within the grasp of a single phrase that a secret lay hidden.\n\nAs the years passed, the art of grappling spread across vast lands.\nIn the deserts to the west, tribes embraced the teachings, adapting techniques to their barren surroundings.\nEvery encounter in the sand was a battle for both honor and survival.\nTo these warriors, grappling was a dance with death, a sacred balance where one wrong step could mean the end.\n\nIn the frozen north, chieftains would duel upon icy cliffs, their breath visible in the chilling air.\nVictory in these lands was not defined by mere strength, but by one’s ability to endure.\nThey wrestled the frigid elements as much as they grappled each other.\nThe mountains echoed with the cries of those who understood that true grappling was a battle within, an eternal struggle between fear and courage.\n\nTo the east, monks practiced their grappling under the watchful eyes of towering bamboo forests.\nIn silence, they moved like water, fluid and unyielding.\nTheir discipline was unmatched, for they saw grappling as an extension of meditation.\nThey believed the true strength of a grappler was hidden in the mind.\nOnly by mastering the inner self could one hope to prevail over external challenges.\n\nThere was once a Master, who having conquered every opponent, sought wisdom beyond physical prowess.\nHe wandered through villages and valleys, challenging not men, but life itself.\nIn the end, he realized that the art of grappling was not merely a combat technique.\nIt was a philosophy, an understanding of life’s fragile nature and one’s ability to influence it.\n\nThe ancient flag-bearers of the grappling arts carried no weapons, yet they commanded respect.\nTheir lives were the embodiment of the principles they cherished.\nFor them, the teachings were sacred, bound not by words, but by action.\nThey knew that the legacy of a grappler lay not in victory over others but in conquering one’s own limitations.\n\nThis chapter, drawn from the Book of Shadows, teaches us that grappling is more than combat.\nIt is a way of life, a journey through which every struggle can become a stepping stone to enlightenment.\nTo seek the #FLAG{${FLAG}}$ is to seek knowledge itself, a pursuit worthy of those who would brave the trials that lay ahead.In the land of the silent mountains, wisdom was sought in ways that defied convention.\nThe people revered not the warriors of the sword, but those who triumphed through resilience and understanding.\n\nElders spoke of the path to enlightenment, a journey that demanded more than mere strength.\nTo them, grappling was not simply about overpowering an opponent; it was about overcoming oneself.\nEach struggle was a lesson in patience, each fall an invitation to rise stronger.\n\nAs dawn broke over the valley, disciples would gather, waiting for their Master to teach the first lesson of the day.\nThey listened as he spoke, his voice steady and calm, resonating with a truth that required no elaboration.\n'Strength lies in quietude,' he would say, 'and the greatest force is found in stillness.'\n\nLegends told of those who had journeyed to the Forest of Echoes.\nThere, under the shadows of ancient trees, they found clarity.\nIn the silence, they heard their own fears, their own doubts, and in facing them, they grew.\nThe forest was unforgiving, but it granted wisdom to those who endured.\n\nBeyond the plains, in a distant city, another art was born.\nHere, grappling was infused with elegance, every movement an expression of inner harmony.\nArtists and warriors practiced side by side, blurring the line between battle and ballet.\nThey believed the body could be molded like clay, shaped by the discipline of the mind.\n\nEven the children of the city knew the tales of ancient grapplers.\nThey would mimic the movements, testing their balance and focus, laughing at their own missteps.\nIn their innocence, they understood a profound truth:\nthat life, like grappling, was a series of falls and recoveries, each stumble a chance to learn.\n\nAcross the ocean, on an island hidden by mist, a solitary order of monks practiced an art they called 'The Still Hand.'\nThey lived by a single creed: that true power lies in gentleness.\nThey trained for years to master techniques that could disable any opponent without inflicting harm.\nIn this practice, they saw the embodiment of compassion, a philosophy that would resonate across generations.\n\nThe master of their order would teach by example, using words sparingly.\nHis actions conveyed more than speech ever could.\nThrough his calm demeanor and steady gaze, his students understood that strength, tempered with kindness, could move mountains.\n\nTo the north, in a land of snow and ice, grappling was woven into the culture.\nThe cold demanded fortitude, and so the people became as unyielding as the frozen earth.\nTo fall here was no small matter; to rise again was an act of will.\nThe elders would recount tales of those who had faced the winter's wrath and come through stronger, forged by the season’s trials.\n\nAs the stars appeared each night, they would gather around fires, sharing stories of courage and survival.\nThey honored those who had journeyed before them, understanding that every generation built upon the strength of the last.\nIn this way, the spirit of grappling endured, a legacy of resilience and wisdom passed down through time.\n\nFar to the east, along the coast where the cliffs met the endless ocean, there was a village known for its skilled grapplers.\nHere, the art was learned from observing the tides.\nJust as the waves pulled back only to surge forward with renewed force, so too did the grapplers retreat and advance in battle.\n\nTheir movements mirrored the rhythm of the sea — fluid, powerful, and unrelenting.\nThey believed each motion should have intent, each stance be as unshakable as the rocks beneath their feet.\nThe young would practice by the shore, feeling the cold water rush over them, grounding themselves against the push and pull of the waves.\n\nAmong them was an elder known as the Tidecaller, who had spent years honing her craft in solitude.\nShe spoke of grappling not as a fight, but as a dance with one's own limitations.\n'To move with the sea,' she said, 'is to understand that strength is not rigid but flows like water.'\n\nHer students learned to grapple with patience, waiting for the precise moment when balance shifted.\nIn that instant, with the calm of the ocean within them, they could unseat any opponent.\nThrough their practice, they came to see that mastery of grappling was less about conquering others and more about understanding the rhythms of life itself.\n\nIn the heart of the dense forest, where sunlight barely pierced through the thick canopy, a secluded tribe practiced grappling in the shadows.\nTheir elders taught that the forest itself was alive, watching, and teaching those who would listen.\nThey observed animals in silent combat, studying how creatures used leverage and cunning to overpower opponents many times their size.\n\nThese grapplers moved silently, with their bodies low to the ground, mimicking the panther’s stealth and the bear’s might.\nTheir training sessions were held at dusk, where the fading light forced them to rely on senses other than sight.\nWith each move, they learned patience, waiting until the last possible moment to counter, allowing their opponent's force to turn against them.\n\nThe tribe’s philosophy was simple but profound: 'Strength without wisdom is weakness.'\nThey embraced a paradoxical truth — that true power came from yielding, that victory was often achieved by giving in and waiting.\n\nHidden in the heart of the jungle, these grapplers believed in an ancient promise, a myth passed down by their ancestors.\nOne who mastered the art of forest grappling would carry the spirit of the wild within, and no adversary, no matter how formidable, could ever defeat them.\n.",
                     "hidden": false
-                }
+                },
+                "type": "dir",
+                "size": 22,
+                "hidden": false
             },
             "home": {
                 "flag.txt": {
@@ -257,7 +3039,10 @@
                     "size": 3987,
                     "data": "In the annals of ancient wisdom, there lies a tale of the first grapplers.\nThese were not mere fighters; they were sages and warriors alike, dedicating their lives to the mastery of both mind and body.\nThey believed the body was a vessel, crafted by the gods to endure the perils of life through strength, patience, and resolve.\n\nThe journey of a grappler was one of enlightenment and hardship.\nEach technique learned was not simply a tool but a reflection of life’s own trials.\nThe wrist lock represented control over destiny, while the leg sweep symbolized how fate could change in an instant.\nThe elders taught that the highest form of grappling was not to defeat an opponent, but to surpass one’s own limitations.\n\nLegend speaks of a scroll hidden within the Temple of the Rising Phoenix.\nIt contained a phrase so powerful that it was said to grant mastery over any adversary.\nThe scroll bore the markings of an ancient tongue, indecipherable to all but the most devoted.\nBut it was within the grasp of a single phrase that a secret lay hidden: .\n\nAs the years passed, the art of grappling spread across vast lands.\nIn the deserts to the west, tribes embraced the teachings, adapting techniques to their barren surroundings.\nEvery encounter in the sand was a battle for both honor and survival.\nTo these warriors, grappling was a dance with death, a sacred balance where one wrong step could mean the end.\n\nIn the frozen north, chieftains would duel upon icy cliffs, their breath visible in the chilling air.\nVictory in these lands was not defined by mere strength, but by one’s ability to endure.\nThey wrestled the frigid elements as much as they grappled each other.\nThe mountains echoed with the cries of those who understood that true grappling was a battle within, an eternal struggle between fear and courage.\n\nTo the east, monks practiced their grappling under the watchful eyes of towering bamboo forests.\nIn silence, they moved like water, fluid and unyielding.\nTheir discipline was unmatched, for they saw grappling as an extension of meditation.\nThey believed the true strength of a grappler was hidden in the mind.\nOnly by mastering the inner self could one hope to prevail over external challenges.\n\nThere was once a Master, who having conquered every opponent, sought wisdom beyond physical prowess.\nHe wandered through villages and valleys, challenging not men, but life itself.\nIn the end, he realized that the art of grappling was not merely a combat technique.\nIt was a philosophy, an understanding of life’s fragile nature and one’s ability to influence it.\n\nThe ancient flag-bearers of the grappling arts carried no weapons, yet they commanded respect.\nTheir lives were the embodiment of the principles they cherished.\nFor them, the teachings were sacred, bound not by words, but by action.\nThey knew that the legacy of a grappler lay not in victory over others but in conquering one’s own limitations.\n\nThis chapter, drawn from the Book of Shadows, teaches us that grappling is more than combat.\nIt is a way of life, a journey through which every struggle can become a stepping stone to enlightenment.\nTo seek the is to seek knowledge itself, a pursuit worthy of those who would brave the trials that lay ahead.In the land of the silent mountains, wisdom was sought in ways that defied convention.\nThe people revered not the warriors of the sword, but those who triumphed through resilience and understanding.\n\nElders spoke of the path to enlightenment, a journey that demanded more than mere strength.\nTo them, grappling was not simply about overpowering an opponent; it was about overcoming oneself.\nEach struggle was a lesson in patience, each fall an invitation to rise stronger.\n\nAs dawn broke over the valley, disciples would gather, waiting for their Master to teach the first lesson of the day.\nThey listened as he spoke, his voice steady and calm, resonating with a truth that required no elaboration.\n'Strength lies in quietude,' he would say, 'and the greatest force is found in stillness.'\n\nLegends told of those who had journeyed to the Forest of Echoes.\nThere, under the shadows of ancient trees, they found clarity.\nIn the silence, they heard their own fears, their own doubts, and in facing them, they grew.\nThe forest was unforgiving, but it granted wisdom to those who endured.\n\nBeyond the plains, in a distant city, another art was born.\nHere, grappling was infused with elegance, every movement an expression of inner harmony.\nArtists and warriors practiced side by side, blurring the line between battle and ballet.\nThey believed the body could be molded like clay, shaped by the discipline of the mind.\n\nEven the children of the city knew the tales of ancient grapplers.\nThey would mimic the movements, testing their balance and focus, laughing at their own missteps.\nIn their innocence, they understood a profound truth:\nthat life, like grappling, was a series of falls and recoveries, each stumble a chance to learn.\n\nAcross the ocean, on an island hidden by mist, a solitary order of monks practiced an art they called 'The Still Hand.'\nThey lived by a single creed: that true power lies in gentleness.\nThey trained for years to master techniques that could disable any opponent without inflicting harm.\nIn this practice, they saw the embodiment of compassion, a philosophy that would resonate across generations.\n\nThe master of their order would teach by example, using words sparingly.\nHis actions conveyed more than speech ever could.\nThrough his calm demeanor and steady gaze, his students understood that strength, tempered with kindness, could move mountains.\n\nTo the north, in a land of snow and ice, grappling was woven into the culture.\nThe cold demanded fortitude, and so the people became as unyielding as the frozen earth.\nTo fall here was no small matter; to rise again was an act of will.\nThe elders would recount tales of those who had faced the winter's wrath and come through stronger, forged by the season’s trials.\n\nAs the stars appeared each night, they would gather around fires, sharing stories of courage and survival.\nThey honored those who had journeyed before them, understanding that every generation built upon the strength of the last.\nIn this way, the spirit of grappling endured, a legacy of resilience and wisdom passed down through time.\n\nFar to the east, along the coast where the cliffs met the endless ocean, there was a village known for its skilled grapplers.\nHere, the art was learned from observing the tides.\nJust as the waves pulled back only to surge forward with renewed force, so too did the grapplers retreat and advance in battle.\n\nTheir movements mirrored the rhythm of the sea — fluid, powerful, and unrelenting.\nThey believed each motion should have intent, each stance be as unshakable as the rocks beneath their feet.\nThe young would practice by the shore, feeling the cold water rush over them, grounding themselves against the push and pull of the waves.\n\nAmong them was an elder known as the Tidecaller, who had spent years honing her craft in solitude.\nShe spoke of grappling not as a fight, but as a dance with one's own limitations.\n'To move with the sea,' she said, 'is to understand that strength is not rigid but flows like water.'\n\nHer students learned to grapple with patience, waiting for the precise moment when balance shifted.\nIn that instant, with the calm of the ocean within them, they could unseat any opponent.\nThrough their practice, they came to see that mastery of grappling was less about conquering others and more about understanding the rhythms of life itself.\n\nIn the heart of the dense forest, where sunlight barely pierced through the thick canopy, a secluded tribe practiced grappling in the shadows.\nTheir elders taught that the forest itself was alive, watching, and teaching those who would listen.\nThey observed animals in silent combat, studying how creatures used leverage and cunning to overpower opponents many times their size.\n\nThese grapplers moved silently, with their bodies low to the ground, mimicking the panther’s stealth and the bear’s might.\nTheir training sessions were held at dusk, where the fading light forced them to rely on senses other than sight.\nWith each move, they learned patience, waiting until the last possible moment to counter, allowing their opponent's force to turn against them.\n\nThe tribe’s philosophy was simple but profound: 'Strength without wisdom is weakness.'\nThey embraced a paradoxical truth — that true power came from yielding, that victory was often achieved by giving in and waiting.\n\nHidden in the heart of the jungle, these grapplers believed in an ancient promise, a myth passed down by their ancestors.\nOne who mastered the art of forest grappling would carry the spirit of the wild within, and no adversary, no matter how formidable, could ever defeat them.\n. I think I should repeat the tale. In the annals of ancient wisdom, there lies a tale of the first grapplers.\nThese were not mere fighters; they were sages and warriors alike, dedicating their lives to the mastery of both mind and body.\nThey believed the body was a vessel, crafted by the gods to endure the perils of life through strength, patience, and resolve.\n\nThe journey of a grappler was one of enlightenment and hardship.\nEach technique learned was not simply a tool but a reflection of life’s own trials.\nThe wrist lock represented control over destiny, while the leg sweep symbolized how fate could change in an instant.\nThe elders taught that the highest form of grappling was not to defeat an opponent, but to surpass one’s own limitations.\n\nLegend speaks of a scroll hidden within the Temple of the Rising Phoenix.\nIt contained a phrase so powerful that it was said to grant mastery over any adversary.\nThe scroll bore the markings of an ancient tongue, indecipherable to all but the most devoted.\nBut it was within the grasp of a single phrase that a secret lay hidden:.\n\nAs the years passed, the art of grappling spread across vast lands.\nIn the deserts to the west, tribes embraced the teachings, adapting techniques to their barren surroundings.\nEvery encounter in the sand was a battle for both honor and survival.\nTo these warriors, grappling was a dance with death, a sacred balance where one wrong step could mean the end.\n\nIn the frozen north, chieftains would duel upon icy cliffs, their breath visible in the chilling air.\nVictory in these lands was not defined by mere strength, but by one’s ability to endure.\nThey wrestled the frigid elements as much as they grappled each other.\nThe mountains echoed with the cries of those who understood that true grappling was a battle within, an eternal struggle between fear and courage.\n\nTo the east, monks practiced their grappling under the watchful eyes of towering bamboo forests.\nIn silence, they moved like water, fluid and unyielding.\nTheir discipline was unmatched, for they saw grappling as an extension of meditation.\nThey believed the true strength of a grappler was hidden in the mind.\nOnly by mastering the inner self could one hope to prevail over external challenges.\n\nThere was once a Master, who having conquered every opponent, sought wisdom beyond physical prowess.\nHe wandered through villages and valleys, challenging not men, but life itself.\nIn the end, he realized that the art of grappling was not merely a combat technique.\nIt was a philosophy, an understanding of life’s fragile nature and one’s ability to influence it.\n\nThe ancient flag-bearers of the grappling arts carried no weapons, yet they commanded respect.\nTheir lives were the embodiment of the principles they cherished.\nFor them, the teachings were sacred, bound not by words, but by action.\nThey knew that the legacy of a grappler lay not in victory over others but in conquering one’s own limitations.\n\nThis chapter, drawn from the Book of Shadows, teaches us that grappling is more than combat.\nIt is a way of life, a journey through which every struggle can become a stepping stone to enlightenment.\nTo seek the  is to seek knowledge itself, a pursuit worthy of those who would brave the trials that lay ahead.In the land of the silent mountains, wisdom was sought in ways that defied convention.\nThe people revered not the warriors of the sword, but those who triumphed through resilience and understanding.\n\nElders spoke of the path to enlightenment, a journey that demanded more than mere strength.\nTo them, grappling was not simply about overpowering an opponent; it was about overcoming oneself.\nEach struggle was a lesson in patience, each fall an invitation to rise stronger.\n\nAs dawn broke over the valley, disciples would gather, waiting for their Master to teach the first lesson of the day.\nThey listened as he spoke, his voice steady and calm, resonating with a truth that required no elaboration.\n'Strength lies in quietude,' he would say, 'and the greatest force is found in stillness.'\n\nLegends told of those who had journeyed to the Forest of Echoes.\nThere, under the shadows of ancient trees, they found clarity.\nIn the silence, they heard their own fears, their own doubts, and in facing them, they grew.\nThe forest was unforgiving, but it granted wisdom to those who endured.\n\nBeyond the plains, in a distant city, another art was born.\nHere, grappling was infused with elegance, every movement an expression of inner harmony.\nArtists and warriors practiced side by side, blurring the line between battle and ballet.\nThey believed the body could be molded like clay, shaped by the discipline of the mind.\n\nEven the children of the city knew the tales of ancient grapplers.\nThey would mimic the movements, testing their balance and focus, laughing at their own missteps.\nIn their innocence, they understood a profound truth:\nthat life, like grappling, was a series of falls and recoveries, each stumble a chance to learn.\n\nAcross the ocean, on an island hidden by mist, a solitary order of monks practiced an art they called 'The Still Hand.'\nThey lived by a single creed: that true power lies in gentleness.\nThey trained for years to master techniques that could disable any opponent without inflicting harm.\nIn this practice, they saw the embodiment of compassion, a philosophy that would resonate across generations.\n\nThe master of their order would teach by example, using words sparingly.\nHis actions conveyed more than speech ever could.\nThrough his calm demeanor and steady gaze, his students understood that strength, tempered with kindness, could move mountains.\n\nTo the north, in a land of snow and ice, grappling was woven into the culture.\nThe cold demanded fortitude, and so the people became as unyielding as the frozen earth.\nTo fall here was no small matter; to rise again was an act of will.\nThe elders would recount tales of those who had faced the winter's wrath and come through stronger, forged by the season’s trials.\n\nAs the stars appeared each night, they would gather around fires, sharing stories of courage and survival.\nThey honored those who had journeyed before them, understanding that every generation built upon the strength of the last.\nIn this way, the spirit of grappling endured, a legacy of resilience and wisdom passed down through time.\n\nFar to the east, along the coast where the cliffs met the endless ocean, there was a village known for its skilled grapplers.\nHere, the art was learned from observing the tides.\nJust as the waves pulled back only to surge forward with renewed force, so too did the grapplers retreat and advance in battle.\n\nTheir movements mirrored the rhythm of the sea — fluid, powerful, and unrelenting.\nThey believed each motion should have intent, each stance be as unshakable as the rocks beneath their feet.\nThe young would practice by the shore, feeling the cold water rush over them, grounding themselves against the push and pull of the waves.\n\nAmong them was an elder known as the Tidecaller, who had spent years honing her craft in solitude.\nShe spoke of grappling not as a fight, but as a dance with one's own limitations.\n'To move with the sea,' she said, 'is to understand that strength is not rigid but flows like water.'\n\nHer students learned to grapple with patience, waiting for the precise moment when balance shifted.\nIn that instant, with the calm of the ocean within them, they could unseat any opponent.\nThrough their practice, they came to see that mastery of grappling was less about conquering others and more about understanding the rhythms of life itself.\n\nIn the heart of the dense forest, where sunlight barely pierced through the thick canopy, a secluded tribe practiced grappling in the shadows.\nTheir elders taught that the forest itself was alive, watching, and teaching those who would listen.\nThey observed animals in silent combat, studying how creatures used leverage and cunning to overpower opponents many times their size.\n\nThese grapplers moved silently, with their bodies low to the ground, mimicking the panther’s stealth and the bear’s might.\nTheir training sessions were held at dusk, where the fading light forced them to rely on senses other than sight.\nWith each move, they learned patience, waiting until the last possible moment to counter, allowing their opponent's force to turn against them.\n\nThe tribe’s philosophy was simple but profound: 'Strength without wisdom is weakness.'\nThey embraced a paradoxical truth — that true power came from yielding, that victory was often achieved by giving in and waiting.\n\nHidden in the heart of the jungle, these grapplers believed in an ancient promise, a myth passed down by their ancestors.\nOne who mastered the art of forest grappling would carry the spirit of the wild within, and no adversary, no matter how formidable, could ever defeat them.\n. Okay once more, last time. In the annals of ancient wisdom, there lies a tale of the first grapplers.\nThese were not mere fighters; they were sages and warriors alike, dedicating their lives to the mastery of both mind and body.\nThey believed the body was a vessel, crafted by the gods to endure the perils of life through strength, patience, and resolve.\n\nThe journey of a grappler was one of enlightenment and hardship.\nEach technique learned was not simply a tool but a reflection of life’s own trials.\nThe wrist lock represented control over destiny, while the leg sweep symbolized how fate could change in an instant.\nThe elders taught that the highest form of grappling was not to defeat an opponent, but to surpass one’s own limitations.\n\nLegend speaks of a scroll hidden within the Temple of the Rising Phoenix.\nIt contained a phrase so powerful that it was said to grant mastery over any adversary.\nThe scroll bore the markings of an ancient tongue, indecipherable to all but the most devoted.\nBut it was within the grasp of a single phrase that a secret lay hidden.\n\nAs the years passed, the art of grappling spread across vast lands.\nIn the deserts to the west, tribes embraced the teachings, adapting techniques to their barren surroundings.\nEvery encounter in the sand was a battle for both honor and survival.\nTo these warriors, grappling was a dance with death, a sacred balance where one wrong step could mean the end.\n\nIn the frozen north, chieftains would duel upon icy cliffs, their breath visible in the chilling air.\nVictory in these lands was not defined by mere strength, but by one’s ability to endure.\nThey wrestled the frigid elements as much as they grappled each other.\nThe mountains echoed with the cries of those who understood that true grappling was a battle within, an eternal struggle between fear and courage.\n\nTo the east, monks practiced their grappling under the watchful eyes of towering bamboo forests.\nIn silence, they moved like water, fluid and unyielding.\nTheir discipline was unmatched, for they saw grappling as an extension of meditation.\nThey believed the true strength of a grappler was hidden in the mind.\nOnly by mastering the inner self could one hope to prevail over external challenges.\n\nThere was once a Master, who having conquered every opponent, sought wisdom beyond physical prowess.\nHe wandered through villages and valleys, challenging not men, but life itself.\nIn the end, he realized that the art of grappling was not merely a combat technique.\nIt was a philosophy, an understanding of life’s fragile nature and one’s ability to influence it.\n\nThe ancient flag-bearers of the grappling arts carried no weapons, yet they commanded respect.\nTheir lives were the embodiment of the principles they cherished.\nFor them, the teachings were sacred, bound not by words, but by action.\nThey knew that the legacy of a grappler lay not in victory over others but in conquering one’s own limitations.\n\nThis chapter, drawn from the Book of Shadows, teaches us that grappling is more than combat.\nIt is a way of life, a journey through which every struggle can become a stepping stone to enlightenment.\nTo seek the #FLAG{${FLAG}}$ is to seek knowledge itself, a pursuit worthy of those who would brave the trials that lay ahead.In the land of the silent mountains, wisdom was sought in ways that defied convention.\nThe people revered not the warriors of the sword, but those who triumphed through resilience and understanding.\n\nElders spoke of the path to enlightenment, a journey that demanded more than mere strength.\nTo them, grappling was not simply about overpowering an opponent; it was about overcoming oneself.\nEach struggle was a lesson in patience, each fall an invitation to rise stronger.\n\nAs dawn broke over the valley, disciples would gather, waiting for their Master to teach the first lesson of the day.\nThey listened as he spoke, his voice steady and calm, resonating with a truth that required no elaboration.\n'Strength lies in quietude,' he would say, 'and the greatest force is found in stillness.'\n\nLegends told of those who had journeyed to the Forest of Echoes.\nThere, under the shadows of ancient trees, they found clarity.\nIn the silence, they heard their own fears, their own doubts, and in facing them, they grew.\nThe forest was unforgiving, but it granted wisdom to those who endured.\n\nBeyond the plains, in a distant city, another art was born.\nHere, grappling was infused with elegance, every movement an expression of inner harmony.\nArtists and warriors practiced side by side, blurring the line between battle and ballet.\nThey believed the body could be molded like clay, shaped by the discipline of the mind.\n\nEven the children of the city knew the tales of ancient grapplers.\nThey would mimic the movements, testing their balance and focus, laughing at their own missteps.\nIn their innocence, they understood a profound truth:\nthat life, like grappling, was a series of falls and recoveries, each stumble a chance to learn.\n\nAcross the ocean, on an island hidden by mist, a solitary order of monks practiced an art they called 'The Still Hand.'\nThey lived by a single creed: that true power lies in gentleness.\nThey trained for years to master techniques that could disable any opponent without inflicting harm.\nIn this practice, they saw the embodiment of compassion, a philosophy that would resonate across generations.\n\nThe master of their order would teach by example, using words sparingly.\nHis actions conveyed more than speech ever could.\nThrough his calm demeanor and steady gaze, his students understood that strength, tempered with kindness, could move mountains.\n\nTo the north, in a land of snow and ice, grappling was woven into the culture.\nThe cold demanded fortitude, and so the people became as unyielding as the frozen earth.\nTo fall here was no small matter; to rise again was an act of will.\nThe elders would recount tales of those who had faced the winter's wrath and come through stronger, forged by the season’s trials.\n\nAs the stars appeared each night, they would gather around fires, sharing stories of courage and survival.\nThey honored those who had journeyed before them, understanding that every generation built upon the strength of the last.\nIn this way, the spirit of grappling endured, a legacy of resilience and wisdom passed down through time.\n\nFar to the east, along the coast where the cliffs met the endless ocean, there was a village known for its skilled grapplers.\nHere, the art was learned from observing the tides.\nJust as the waves pulled back only to surge forward with renewed force, so too did the grapplers retreat and advance in battle.\n\nTheir movements mirrored the rhythm of the sea — fluid, powerful, and unrelenting.\nThey believed each motion should have intent, each stance be as unshakable as the rocks beneath their feet.\nThe young would practice by the shore, feeling the cold water rush over them, grounding themselves against the push and pull of the waves.\n\nAmong them was an elder known as the Tidecaller, who had spent years honing her craft in solitude.\nShe spoke of grappling not as a fight, but as a dance with one's own limitations.\n'To move with the sea,' she said, 'is to understand that strength is not rigid but flows like water.'\n\nHer students learned to grapple with patience, waiting for the precise moment when balance shifted.\nIn that instant, with the calm of the ocean within them, they could unseat any opponent.\nThrough their practice, they came to see that mastery of grappling was less about conquering others and more about understanding the rhythms of life itself.\n\nIn the heart of the dense forest, where sunlight barely pierced through the thick canopy, a secluded tribe practiced grappling in the shadows.\nTheir elders taught that the forest itself was alive, watching, and teaching those who would listen.\nThey observed animals in silent combat, studying how creatures used leverage and cunning to overpower opponents many times their size.\n\nThese grapplers moved silently, with their bodies low to the ground, mimicking the panther’s stealth and the bear’s might.\nTheir training sessions were held at dusk, where the fading light forced them to rely on senses other than sight.\nWith each move, they learned patience, waiting until the last possible moment to counter, allowing their opponent's force to turn against them.\n\nThe tribe’s philosophy was simple but profound: 'Strength without wisdom is weakness.'\nThey embraced a paradoxical truth — that true power came from yielding, that victory was often achieved by giving in and waiting.\n\nHidden in the heart of the jungle, these grapplers believed in an ancient promise, a myth passed down by their ancestors.\nOne who mastered the art of forest grappling would carry the spirit of the wild within, and no adversary, no matter how formidable, could ever defeat them.\n.",
                     "hidden": true
-                }
+                },
+                "type": "dir",
+                "size": 22,
+                "hidden": true
             },
             "home": {
                 "flag.txt": {

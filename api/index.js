@@ -6,6 +6,7 @@ const cat = require("./commands/cat.js")
 const find = require("./commands/find.js")
 const dotenv = require("dotenv");
 const grep = require("./commands/grep.js");
+const base64 = require("./commands/base64.js");
 const passport = require("passport");
 const session = require("express-session");
 const app = express();
@@ -133,7 +134,7 @@ app.post("/execute", async (req, res) => {
             } else {
                 directoryStruct = {}; 
             }
-            if (level === 2) {
+            if (level === 2.1) {
                 const splitPoint = Math.ceil(flag.length / 2);
                 const flag1 = flag.slice(0, splitPoint);
                 const flag2 = flag.slice(splitPoint);
@@ -144,6 +145,32 @@ app.post("/execute", async (req, res) => {
                     directoryStruct.home["-flag.txt"].data = `FLAG PART 2: ${flag2}`;
                 }
             }
+
+            if (level === 2.2) {
+                const splitPoint = Math.ceil(flag.length / 2);
+                const flag1 = flag.slice(0, splitPoint);
+                const flag2 = flag.slice(splitPoint);
+
+                if (directoryStruct.cryptic[".flag.txt"]) {
+                    directoryStruct.cryptic[".flag.txt"].data = `FLAG PART 1: ${flag1}`;
+                }
+                if (directoryStruct.cryptic["-flag.txt"]) {
+                    directoryStruct.cryptic["-flag.txt"].data = `FLAG PART 2: ${flag2}`;
+                }
+            }
+
+            if (level === 2.3) {
+                const splitPoint = Math.ceil(flag.length / 2);
+                const flag1 = flag.slice(0, splitPoint);
+                const flag2 = flag.slice(splitPoint);
+
+                if (directoryStruct[".flag.txt"]) {
+                    directoryStruct[".flag.txt"].data = `FLAG PART 1: ${flag1}`;
+                }
+                if (directoryStruct["-flag.txt"]) {
+                    directoryStruct["-flag.txt"].data = `FLAG PART 2: ${flag2}`;
+                }
+            }
         } catch (error) {
             console.error("Error reading level data:", error);
             directoryStruct = {};
@@ -152,9 +179,9 @@ app.post("/execute", async (req, res) => {
         let input = null;
         for(let i = 0; i < parsedObject.length; i++) {
             const command = parsedObject[i];
-            if (command.command == 'ls') {
+            if (command.command === 'ls') {
                 output = ls.lsCommand(command.args, path, directoryStruct);
-            } else if (command.command == 'cd') {
+            } else if (command.command === 'cd') {
                 if (input != null){
                     command.args[0] = input;
                 }
@@ -165,20 +192,24 @@ app.post("/execute", async (req, res) => {
                     output = null;
                 }
             }
-            else if (command.command == 'cat') {
+            else if (command.command === 'cat') {
                 if (input != null){
                     command.args[0] = input;
                 }
                 output=cat.catCommand(command.args[0], path, directoryStruct,flag);
             }
-            else if (command.command == 'find'){
+            else if (command.command === 'find'){
                 if (input != null){
                     command.args[0] = input;
                 }
                 output = find.findCommand(command.args[0],path,directoryStruct);
-            } else if (command.command == 'grep') {
+            } else if (command.command === 'grep') {
                 // output = grep.grepCommand(command.args[0], command.args[1], path, directoryStruct);
                 output = grep.grep2(command.args[0], input, path, directoryStruct);
+            } else if (command.command === 'base64') {
+                output = base64.base64Command(command.args, path, directoryStruct,flag);
+            } else {
+                output = `${command.command}: Not found`
             }
             if (output != null) {
                 input = output.trimEnd();

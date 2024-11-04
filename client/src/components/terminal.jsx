@@ -12,6 +12,7 @@ const Terminal = () => {
   const [path, setPath] = useState(["."]);
   const [flag, setFlag] = useState("");
   const [level, setLevel] = useState(0);
+  const [dispLevel,setDispLevel] = useState(0);
   const terminalEndRef = useRef(null); // For scrolling to the bottom
   const { userDetails } = useContext(AuthContext);
   const inputRef = useRef(null); // Create a ref for the input field
@@ -20,6 +21,7 @@ const Terminal = () => {
 
   useEffect(() => {
     rickRollRef.current = new Audio("/lol.mp3"); // Ensure your sound file path is correct
+
   }, []);
 
   const playRickRoll = () => {
@@ -57,7 +59,8 @@ const Terminal = () => {
       const response = await axios.get(
         `http://localhost:8000/api/levels/get-level-details/${userDetails._id}`
       );
-      setLevel(response.data.levelNo);
+      setDispLevel(response.data.levelNo);
+      setLevel(response.data.level);
       setFlag(response.data.flag);
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -66,7 +69,18 @@ const Terminal = () => {
 
   useEffect(() => {
     levelDetails();
+
   }, []);
+  
+  useEffect(() => {
+    if (dispLevel > 5){
+      setDispLevel("You are done! Get out!");
+    }
+  }, [dispLevel]);
+
+  // useEffect(() => {
+  //   console.log(dispLevel,level);
+  // },[dispLevel,level])
 
   const commandHandler = async (command) => {
     let output = "";
@@ -96,7 +110,7 @@ const Terminal = () => {
         });
       })
       .then((json) => {
-        console.log("Server response:", json);
+        //console.log("Server response:", json);
         args = json;
         if (args.path !== null) setPath(args.path);
         const outFinal = args.output;
@@ -184,6 +198,10 @@ const Terminal = () => {
           }, 0);
         }
       }
+    }
+    else if ((e.ctrlKey || e.metaKey) && e.key === "f"){
+        e.preventDefault();
+        alert("Search functionality is disabled on this page.");
     }
   };
 
