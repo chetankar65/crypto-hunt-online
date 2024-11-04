@@ -107,6 +107,11 @@ pre.title {
   object-fit: contain; 
 }
 
+.crosses img {
+  height: 25px; 
+  width: auto;  
+}
+
 .terminal-topbar-directory {
   color: whitesmoke;
   font-family: cursor, monospace;
@@ -115,4 +120,10 @@ pre.title {
 .terminal-outer-container {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
   border-radius: 10px;
+}
+
+.crosses {
+  display: flex;
+  align-items: center;
+  gap: 2px;
 }

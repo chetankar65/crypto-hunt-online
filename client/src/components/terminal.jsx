@@ -223,7 +223,11 @@ const Terminal = () => {
         <div className="terminal-topbar-directory">
           level-{Math.floor(level)} | cses@cryptic:~{path.length > 1 ? createPathString(path) : ""}
         </div>
-        <img src="/terminal.png" className="terminal-logo" alt="" />
+        <div className="crosses">
+          <img src="/blank-circle.png" className="blank-circle" alt="" />
+          <img src="/blank-circle.png" className="blank-circle" alt="" />
+          <img src="/cross-circle.png" className="cross-circle" alt="" />
+        </div>
       </div>
       <div
         className="terminal-container"
