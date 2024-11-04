@@ -60,7 +60,8 @@ const Terminal = () => {
         `http://localhost:8000/api/levels/get-level-details/${userDetails._id}`
       );
       setDispLevel(response.data.levelNo);
-      setLevel(response.data.level);
+      setLevel(Math.floor(response.data.level));
+
       setFlag(response.data.flag);
     } catch (error) {
       console.error("Error fetching data:", error);
