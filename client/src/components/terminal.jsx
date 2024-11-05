@@ -221,7 +221,7 @@ const Terminal = () => {
       <div className="terminal-topbar">
         <img src="/terminal.png" className="terminal-logo" alt="" />
         <div className="terminal-topbar-directory">
-          level-{Math.floor(level)} | cses@cryptic:~{path.length > 1 ? createPathString(path) : ""}
+          level-{Math.floor(level)+1} | cses@cryptic:~{path.length > 1 ? createPathString(path) : ""}
         </div>
         <div className="crosses">
           <img src="/blank-circle.png" className="blank-circle" alt="" />
