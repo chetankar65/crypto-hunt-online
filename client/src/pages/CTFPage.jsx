@@ -1,4 +1,5 @@
 import Terminal from "../components/terminal";
+import Leaderboard from "../components/Leaderboard";
 import { useState, useContext } from "react";
 import { AuthContext } from "../Context/AuthContext";
 import "./CTFPage.css"
@@ -12,7 +13,7 @@ const CTFPage = () => {
             <Terminal />
         </div>
         <div className="leaderboard-comp">
-            Leaderboard Placeholder
+            <Leaderboard />
         </div>
     </div>
     );
