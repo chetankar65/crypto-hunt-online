@@ -80,8 +80,6 @@ router.get('/leaderboard', async (req, res) => {
             return (a.latestTime || 0) - (b.latestTime || 0);
         });
 
-        console.log(leaderboard);
-
         res.status(200).json(leaderboard);
     } catch (error) {
         console.error('Error fetching leaderboard:', error);

@@ -103,7 +103,6 @@ const Terminal = () => {
     })
       .then((response) => {
         return response.json().then(function (json) {
-          console.log(json)
           return response.ok ? json : Promise.reject(json);
         });
       })
