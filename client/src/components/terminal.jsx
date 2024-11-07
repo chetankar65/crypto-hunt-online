@@ -21,7 +21,6 @@ const Terminal = () => {
 
   useEffect(() => {
     rickRollRef.current = new Audio("/lol.mp3"); // Ensure your sound file path is correct
-
   }, []);
 
   const playRickRoll = () => {
@@ -72,16 +71,13 @@ const Terminal = () => {
     levelDetails();
 
   }, []);
-  
+
   useEffect(() => {
     if (dispLevel > 5){
       setDispLevel("You are done! Get out!");
     }
   }, [dispLevel]);
 
-  // useEffect(() => {
-  //   console.log(dispLevel,level);
-  // },[dispLevel,level])
 
   const commandHandler = async (command) => {
     let output = "";
@@ -107,6 +103,7 @@ const Terminal = () => {
     })
       .then((response) => {
         return response.json().then(function (json) {
+          console.log(json)
           return response.ok ? json : Promise.reject(json);
         });
       })
@@ -221,7 +218,7 @@ const Terminal = () => {
       <div className="terminal-topbar">
         <img src="/terminal.png" className="terminal-logo" alt="" />
         <div className="terminal-topbar-directory">
-          level-{Math.floor(level)+1} | cses@cryptic:~{path.length > 1 ? createPathString(path) : ""}
+          level-{dispLevel + 1} | cses@cryptic:~{path.length > 1 ? createPathString(path) : ""}
         </div>
         <div className="crosses">
           <img src="/blank-circle.png" className="blank-circle" alt="" />
