@@ -1,0 +1,58 @@
+/* Full-page background styling */
+.landing_page_full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Welcome message with typing animation */
+.animated_typing_class {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Login button container styling */
+.login_button_area {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Login button styling */
+.login_button {
+    font-size: 1rem;
+    padding: 12px 30px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #ff7a5a;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login_button:hover {
+    background-color: #ff5c33;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.login_button:active {
+    transform: translateY(2px);
+}
+
+/* Subtle text below the button */
+.login_button_area p {
+    font-size: 0.9rem;
+    color: #c1c9d0;
+    margin-top: 10px;
+}

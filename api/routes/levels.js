@@ -14,7 +14,7 @@ router.get("/get-level-details/:userId", async (req, res) => {
         const levelFinished = userLevelDetails.levelFinished;
         const levels = userLevelDetails.levels;
 
-        let atLevel = 0;
+        let atLevel = -1;
         for (let i = 0; i < levelFinished.length; i++) {
             if (!levelFinished[i]) {
                 atLevel = i;

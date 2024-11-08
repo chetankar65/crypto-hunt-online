@@ -33,7 +33,9 @@ function base64Command(args,currentPath,dirStructure,flag) {
     let input = currentDir.data;
     if (args.d){
         //decode
-        output = atob(input).replace(/\${FLAG}/g, flag);
+        output = atob(input).replace(/\\n/g, '\n');
+        output = output.replace(/\${FLAG}/g, flag);
+        console.log(output);
     }
     else {
         //encode

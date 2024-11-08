@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
+import "./login.css"
+import "../../styles.css"
 
 const LoginWithGoogle = () => {
     const [user, setUser] = useState(null);
@@ -16,12 +18,13 @@ const LoginWithGoogle = () => {
         <section id="left"></section>
         <section id="right"></section>
             <div className="login_area">
-                <h1 className="animated_typing_class">Welcome to CryptoHunt</h1>
+            <div className="logo-container">
+                <img src="/logo.svg" alt="CTF Logo" className="logo" />
+            </div>
                 <div className="login_button_area">
                     <button className="login_button" onClick={signin}>
-                        Student Sign in
+                        Sign in with google
                     </button>
-                    <p>* Login should only be with student email</p>
                 </div>
             </div>
         </div>

@@ -11,6 +11,34 @@
   border-radius: 0px 0px 10px 10px;
 }
 
+.topbar {
+  background-color: #302C29;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+  color: #519975;
+  font-family: cursor, monospace;
+}
+
+/* Logout Button Styling */
+.topbar button {
+  background-color: #519975;
+  color: #211D1B;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.topbar button:hover {
+  background-color: #73ABAD;
+}
+
 .output-area {
   margin-bottom: 10px;
   overflow-y: auto; /* Ensures the output area also scrolls if necessary */
@@ -24,6 +52,8 @@
 .command-output {
   color: #9C8394;
   margin-left: 2em;
+  white-space: normal; /* Ensures long text wraps to the next line */
+  word-break: break-word; /* Breaks long words if necessary */
 }
 
 .input-line {

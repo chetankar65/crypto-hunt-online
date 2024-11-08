@@ -1,16 +1,17 @@
 import React, { useState, useContext } from "react";
 import { AuthContext } from "../Context/AuthContext";
 import axios from "axios";
+import toast, { Toaster } from 'react-hot-toast';
+import "./flagInput.css"
 
 const FlagInput = ({ flag, level }) => {
   const { userDetails } = useContext(AuthContext);
   const [userInput, setUserInput] = useState("");
 
   const handleSubmit = async (e) => {
+    e.preventDefault();
     if (userInput.trim() === flag) {
-      // Alert or any success action
-      try {console.log("Level to update:", level);
-
+      try {
         const response = await axios.post(
           '/api/levels/update-level',
           { 
@@ -24,13 +25,17 @@ const FlagInput = ({ flag, level }) => {
           }
         );
         // Optionally, handle the response (e.g., show a success message)
+        window.location.reload();
       } catch (error) {
         console.error("Error updating level:", error);
       }
     } else {
-      alert("Incorrect flag!");
+      toast.error("Incorrect flag!", {
+        position: 'top-left',
+        duration: 1000,
+      });
     }
-  };
+  };  
 
   const handleClick = (e) => {
     e.stopPropagation(); // Prevent focus from going back to the terminal
@@ -47,6 +52,7 @@ const FlagInput = ({ flag, level }) => {
         />
         <button type="submit">Submit</button>
       </form>
+      <Toaster />
     </div>
   );
 };

@@ -218,7 +218,7 @@ const Terminal = () => {
       <div className="terminal-topbar">
         <img src="/terminal.png" className="terminal-logo" alt="" />
         <div className="terminal-topbar-directory">
-          level-{dispLevel + 1} | cses@cryptic:~{path.length > 1 ? createPathString(path) : ""}
+          level-{dispLevel >= 0 ? dispLevel + 1 : "You've finished the game"} | cses@cryptic:~{path.length > 1 ? createPathString(path) : ""}
         </div>
         <div className="crosses">
           <img src="/blank-circle.png" className="blank-circle" alt="" />
@@ -250,7 +250,10 @@ const Terminal = () => {
                                                                                                                            
           `}
         </pre>
-        <button onClick={logout}>Logout</button>
+        <div className="topbar">
+          <button onClick={logout}>Logout</button>
+          <FlagInput flag={flag} level={dispLevel} />
+        </div>
         <div className="output-area">
           {history.map((entry, index) => (
             <div key={index}>
@@ -307,7 +310,6 @@ const Terminal = () => {
             />
           </div>
         </form>
-        <FlagInput flag={flag} level={dispLevel} />
       </div>
     </div>
   );
