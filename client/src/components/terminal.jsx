@@ -21,7 +21,6 @@ const Terminal = () => {
 
   useEffect(() => {
     rickRollRef.current = new Audio("/lol.mp3"); // Ensure your sound file path is correct
-
   }, []);
 
   const playRickRoll = () => {
@@ -61,6 +60,7 @@ const Terminal = () => {
       );
       setDispLevel(response.data.levelNo);
       setLevel(response.data.level);
+      
       setFlag(response.data.flag);
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -71,7 +71,7 @@ const Terminal = () => {
     levelDetails();
 
   }, []);
-  
+
   useEffect(() => {
     if (dispLevel > 5){
       console.log(process.env.REACT_APP_SERVER_URL)
@@ -79,9 +79,6 @@ const Terminal = () => {
     }
   }, [dispLevel]);
 
-  // useEffect(() => {
-  //   console.log(dispLevel,level);
-  // },[dispLevel,level])
 
   const commandHandler = async (command) => {
     let output = "";
@@ -116,11 +113,11 @@ const Terminal = () => {
         args = json;
         if (args.path !== null) setPath(args.path);
         const outFinal = args.output;
-          // Include the current path in the history
-          setHistory([
-            ...history,
-            { command, output: outFinal, currentPath: createPathString() },
-          ]);
+        // Include the current path in the history
+        setHistory([
+          ...history,
+          { command, output: outFinal, currentPath: createPathString() },
+        ]);
       })
       .catch((error) => console.error(error));
 
@@ -133,6 +130,7 @@ const Terminal = () => {
         { command, output, currentPath: createPathString() },
       ]);
     }
+    terminalEndRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleSubmit = (e) => {
@@ -197,7 +195,7 @@ const Terminal = () => {
           setTimeout(() => {
             inputRef.current.setSelectionRange(0, 0); // Reset cursor position
           }, 0);
-        } 
+        }
       }
     }
     else if ((e.ctrlKey || e.metaKey) && e.key === "f"){
@@ -217,82 +215,101 @@ const Terminal = () => {
   };
 
   return (
-    <div
-      className="terminal-container"
-      onClick={handleContainerClick}
-      onKeyDown={handleKeyDown}
-      tabIndex={0}
-    >
-      <pre className="title">
-        {`
-            CSES Not A Corporation. All nights reserved.
- ________  ________      ___    ___ ________  _________  ___  ________          ___  ___  ___  ___  ________   _________   
-|\\   ____\\|\\   __  \\    |\\  \\  /  /|\\   __  \\|\\___   ___\\\\  \\|\\   ____\\        |\\  \\|\\  \\|\\  \\|\\  \\|\\   ___  \\|\\___   ___\\ 
-\\ \\  \\___|\\ \\  \\|\\  \\   \\ \\  \\/  / | \\  \\|\\  \\|___ \\  \\_\\ \\  \\ \\  \\___|        \\ \\  \\\\\\  \\ \\  \\\\\\  \\ \\  \\\\ \\  \\|___ \\  \\_| 
- \\ \\  \\    \\ \\   _  _\\   \\ \\    / / \\ \\   ____\\   \\ \\  \\ \\ \\  \\ \\  \\            \\ \\   __  \\ \\  \\\\\\  \\ \\  \\\\ \\  \\   \\ \\  \\  
-  \\ \\  \\____\\ \\  \\\\  \\|   \\/  /  /   \\ \\  \\___|    \\ \\  \\ \\ \\  \\ \\  \\____        \\ \\  \\ \\  \\ \\  \\\\\\  \\ \\  \\\\ \\  \\   \\ \\  \\ 
-   \\ \\_______\\ \\__\\\\ _\\ __/  / /      \\ \\__\\        \\ \\__\\ \\ \\__\\ \\_______\\       \\ \\__\\ \\__\\ \\_______\\ \\__\\\\ \\__\\   \\ \\__\\
-    \\|_______|\\|__|\\|__|\\___/ /        \\|__|         \\|__|  \\|__|\\|_______|        \\|__|\\|__|\\|_______|\\|__| \\|__|    \\|__|
-                       \\|___|/                                                                                             
-                                                                                                                           
+    <div className="terminal-outer-container">
+      <div className="terminal-topbar">
+        <img src="/terminal.png" className="terminal-logo" alt="" />
+        <div className="terminal-topbar-directory">
+          level-{dispLevel + 1} | cses@cryptic:~{path.length > 1 ? createPathString(path) : ""}
+        </div>
+        <div className="crosses">
+          <img src="/blank-circle.png" className="blank-circle" alt="" />
+          <img src="/blank-circle.png" className="blank-circle" alt="" />
+          <img src="/cross-circle.png" className="cross-circle" alt="" />
+        </div>
+      </div>
+      <div
+        className="terminal-container"
+        onClick={handleContainerClick}
+        onKeyDown={handleKeyDown}
+        tabIndex={0}
+      >
+        <pre className="title">
+          {`                             o
+                            /\\
+                           /::\\
+                          /::::\\
+            ,a_a         /\\::::/\\
+           {/ ''\\_      /\\ \\::/\\ \\        _________    ____  ________  ______  ______   ________  ________   ________    ___   ______
+           {\\ ,_oo)    /\\ \\ \\/\\ \\ \\      / ____/   |  / __ \\/_  __/ / / / __ \\/ ____/  /_  __/ / / / ____/  / ____/ /   /   | / ____/ 
+           {/  (_^____/  \\ \\ \\ \\ \\ \\    / /   / /| | / /_/ / / / / / / / /_/ / __/      / / / /_/ / __/    / /_  / /   / /| |/ / __ 
+ .=.      {/ \\___)))*)    \\ \\ \\ \\ \\/   / /___/ ___ |/ ____/ / / / /_/ / _, _/ /___     / / / __  / /___   / __/ / /___/ ___ / /_/ /
+(.=.\`\\   {/   /=;  ~/      \\ \\ \\ \\/    \\____/_/  |_/_/     /_/  \\____/_/ |_/_____/    /_/ /_/ /_/_____/  /_/   /_____/_/  |_\\____/
+    \\ \`\\{/(   \\/\\  /        \\ \\ \\/
+     \\  \`. \`\\  ) )           \\ \\/
+      \\    // /_/_            \\/
+       '==''---))))                                                                                     
                                                                                                                            
           `}
-      </pre>
-      <button onClick={logout}>Logout</button>
-      <h1>Level number: {dispLevel}</h1>
-      <div className="output-area">
-        {history.map((entry, index) => (
-          <div key={index}>
-            <div className="command-line">
-              cses@cryptic:
-              <span className="path-color">~{entry.currentPath}$</span>{" "}
-              {entry.command}
+        </pre>
+        <button onClick={logout}>Logout</button>
+        <div className="output-area">
+          {history.map((entry, index) => (
+            <div key={index}>
+              <div className="command-line">
+                cses@cryptic:
+                <span className="path-color">~{entry.currentPath}$</span>{" "}
+                {entry.command}
+              </div>
+              <div className="command-output">
+                {(Array.isArray(entry.output)
+                  ? entry.output
+                  : [entry.output]
+                ).map((item, idx) => {
+                  if (typeof item === "object" && item !== null) {
+                    return (
+                      <span
+                        key={idx}
+                        className={
+                          item.type === "dir" ? "dir-color" : "file-color"
+                        }
+                      >
+                        {item.name || "Unnamed"}{" "}
+                      </span>
+                    );
+                  } else {
+                    return (
+                      <span className="output-text" key={idx}>
+                        {item}{" "}
+                      </span>
+                    );
+                  }
+                })}
+              </div>
             </div>
-            <div className="command-output">
-              {(Array.isArray(entry.output)
-                ? entry.output
-                : [entry.output]
-              ).map((item, idx) => {
-                if (typeof item === "object" && item !== null) {
-                  return (
-                    <span
-                      key={idx}
-                      className={
-                        item.type === "dir" ? "dir-color" : "file-color"
-                      }
-                    >
-                      {item.name || "Unnamed"}{" "}
-                    </span>
-                  );
-                } else {
-                  return <span className="output-text" key={idx}>{item} </span>;
-                }
-              })}
-            </div>
-          </div>
-        ))}
-        <div ref={terminalEndRef} />
-      </div>
-
-      <form onSubmit={handleSubmit}>
-        <div className="input-line">
-          <span className="prompt">
-            cses@cryptic:
-            <span className="path-color">
-              ~{path.length > 1 ? createPathString(path) : ""}$
-            </span>
-          </span>
-          <input
-            type="text"
-            ref={inputRef}
-            className="input-field"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            autoFocus
-          />
+          ))}
+          <div ref={terminalEndRef} />
         </div>
-      </form>
-      <FlagInput flag={flag} level={dispLevel} />
+
+        <form onSubmit={handleSubmit}>
+          <div className="input-line">
+            <span className="prompt">
+              cses@cryptic:
+              <span className="path-color">
+                ~{path.length > 1 ? createPathString(path) : ""}$
+              </span>
+            </span>
+            <input
+              type="text"
+              ref={inputRef}
+              className="input-field"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              autoFocus
+            />
+          </div>
+        </form>
+        <FlagInput flag={flag} level={dispLevel} />
+      </div>
     </div>
   );
 };

@@ -17,9 +17,13 @@ const userSchema = new mongoose.Schema({
     levelFinished: [{
         type: Boolean
     }],
-    levels:[{
+    levels: [{
         type: Number
-    }]
-})
+    }],
+    finishTimes: {
+        type: [Date],
+        default: [null, null, null, null, null, null] 
+    }
+});
 
 module.exports = mongoose.model("User", userSchema);

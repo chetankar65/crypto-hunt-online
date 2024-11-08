@@ -1,0 +1,98 @@
+/* Leaderboard.css */
+
+.leaderboard-container {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #1f2a48;
+    border-radius: 12px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    background-color: #29335c;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Adds space between rows */
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+    padding: 12px;
+    color: #e0e0e0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.leaderboard-table th {
+    background-color: #29335c;
+    color: #ffdd57;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* border-radius: 8px; */
+    text-align: left;
+}
+
+
+
+.leaderboard-table tbody tr {
+    background-color: #2a3b5c;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard-table td:first-child {
+    font-weight: bold;
+    color: #ffdd57;
+    font-size: 18px;
+    text-align: center;
+}
+
+.leaderboard-table td:nth-child(3) {
+    text-align: center;
+}
+
+.leaderboard-table td:last-child {
+    text-align: right;
+    font-weight: bold;
+    color: #ffdd57;
+}
+
+/* Icon styling for rank */
+.rank-icon {
+    font-size: 16px;
+    color: #ffdd57;
+    margin-right: 5px;
+}
+
+/* Hover effect */
+.leaderboard-table tbody tr:hover {
+    background-color: #3a4a6b;
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    .leaderboard-container {
+        padding: 10px;
+    }
+
+    .leaderboard-table th,
+    .leaderboard-table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
