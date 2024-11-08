@@ -57,7 +57,6 @@ module.exports = function () {
 
     // Deserialize user from session
     passport.deserializeUser(async (user, done) => {
-        console.log("passport",user);
         done(null, user);
     });
 };

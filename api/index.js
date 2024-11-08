@@ -14,28 +14,32 @@ const app = express();
 const passportSetup = require("./passport-setup");
 const User = require("./models/User")
 const fs = require("fs");
-
+//import path from "path";
+const path = require("path");
 const cors = require("cors");
 dotenv.config();
 
+app.use(
+    session({
+      cookie: {
+        maxAge: 86400000, // 24 hours
+        secure: false,
+        //sameSite: "none",
+      },
+      secret: 'my-secret-key',
+      resave: false,
+      saveUninitialized: false,
+      tore: MongoStore.create({
+        mongoUrl: process.env.mongo_link,
+        ttl: 24 * 60 * 60, // 1 day
+      }),
+    })
+  );
+
 mongoose.connect(process.env.mongo_link);
 
-app.use(session({
-    cookie: {
-        maxAge: 86400000 // 24 hours
-    },
-    store: MongoStore.create({
-        mongoUrl: process.env.mongo_link, // Use your MongoDB connection URL
-        collectionName: "sessions", // Name of the collection to store sessions in
-        ttl: 24 * 60 * 60, // Session TTL in seconds (24 hours)
-    }),
-    secret: 'my-secret-key',
-    resave: false,
-    saveUninitialized: false,
-}));
 app.use(
     cors({
-        origin: process.env.CLIENT_URL,
         methods: "GET,POST,PUT,DELETE,PATCH",
         credentials: true
     }
@@ -45,14 +49,6 @@ app.use(express.json());
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.get("/", (req, res) => {
-    try {
-        return res.status(200).json("JSON Server is running");
-    } catch (error) {
-        console.log(error);
-    }
-});
-
 app.post("/command", (req, res) => {
     try {
         return res.status(200).json(req.body.commandName);
@@ -61,14 +57,10 @@ app.post("/command", (req, res) => {
     }
 });
 
-
 /* Ignore this, authentication stuff */
 app.get("/login/success", (req, res) => {
     if (req.user) {
-        console.log("Login success!");
-        console.log(req.user);
-        console.log("session",req.session)
-        res.redirect(`${process.env.CLIENT_URL}`)
+        res.redirect(`/`)
     } else {
         res.status(403).json({ error: true, message: "Not Authorized" });
     }
@@ -87,22 +79,22 @@ app.get("/auth/google/",
 )
 
 app.get('/auth/google/callback',
-    passport.authenticate('google', { failureRedirect: `${process.env.CLIENT_URL}` }),
+    passport.authenticate('google', { failureRedirect: `/login/failed` }),
     (req, res) => {
         res.redirect("/login/success")
     }
 )
 
 app.get('/user', (req, res) => {
-    console.log(req.user);
-    console.log("session",req.session)
+    //console.log(req.user);
+    //console.log("session",req.session)
     res.status(200).send(req.user)
 })
 
 
 app.get('/logout', (req, res) => {
     req.logout(() => {
-        res.redirect(`${process.env.CLIENT_URL}`);
+        res.redirect(`/`);
     });
 });
 
@@ -237,6 +229,16 @@ const levelRoute = require("./routes/levels.js");
 app.use("/api/levels", levelRoute);
 
 passportSetup();
+
+// deployment
+if (process.env.NODE_ENV === "production") {
+    const dirPath = path.resolve();
+    app.use(express.static("client/build"));
+    app.get("*", (req, res) => {
+        res.sendFile(path.resolve(dirPath, "client", "build", "index.html"));
+    })
+} 
+
 app.listen(process.env.PORT, () => {
     console.log(`CryptoHunt backend listening on port ${process.env.PORT}`);
 });

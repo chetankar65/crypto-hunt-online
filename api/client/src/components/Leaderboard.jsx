@@ -10,7 +10,7 @@ const Leaderboard = () => {
         // Fetch leaderboard data from server
         const fetchLeaderboard = async () => {
             try {
-                const response = await axios.get('http://localhost:8000/api/levels/leaderboard'); // Adjust the endpoint as needed
+                const response = await axios.get('/api/levels/leaderboard'); // Adjust the endpoint as needed
                 setLeaderboard(response.data);
             } catch (err) {
                 setError("Failed to load leaderboard data.");

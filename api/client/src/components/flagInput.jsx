@@ -12,7 +12,7 @@ const FlagInput = ({ flag, level }) => {
       try {console.log("Level to update:", level);
 
         const response = await axios.post(
-          'http://localhost:8000/api/levels/update-level',
+          '/api/levels/update-level',
           { 
             userId: userDetails._id, 
             level: level

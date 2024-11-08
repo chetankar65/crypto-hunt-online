@@ -5,7 +5,7 @@ const LoginWithGoogle = () => {
     const [user, setUser] = useState(null);
 
     const signin = () => {
-        const redirectUri = `${process.env.REACT_APP_SERVER_URL}/auth/google`;
+        const redirectUri = `/auth/google`;
         window.location.href = redirectUri;
     }
     

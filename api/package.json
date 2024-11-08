@@ -4,8 +4,10 @@
   "description": "The backend for CryptoHunt CTF for Technozion",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "react-scripts build"
+    "start": "node index.js",
+    "build": "react-scripts build",
+    "dev": "nodemon index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
     "connect-mongo": "^5.1.0",
