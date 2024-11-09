@@ -99,6 +99,15 @@ app.get('/user', checkCustomHeader, (req, res) => {
     res.status(200).send(req.user)
 })
 
+app.get('/noFlags', checkCustomHeader, (req, res) => {
+    const userWithoutFlags = req.user;
+    if (!userWithoutFlags) {
+        return res.status(200).send(req.user);
+    }
+    delete userWithoutFlags.user.flags;
+    return res.status(200).send(userWithoutFlags);
+})
+
 
 app.get('/logout', (req, res) => {
     req.logout(() => {

@@ -7,7 +7,6 @@ import { AuthContext } from './Context/AuthContext';
 
 function App() {
   const {userDetails } = useContext(AuthContext);
-  console.log(userDetails)
   const ProtectedRoute = ({ children }) => {
     if (userDetails === null) {
       return <Navigate to="/" />

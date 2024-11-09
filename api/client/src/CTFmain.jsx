@@ -7,7 +7,6 @@ import "./styles.css"
 
 const CTFMainPage = () => {
     const { userDetails } = useContext(AuthContext)
-    const [allFlags, setAllFlags] = useState(userDetails.flags); // ideally retrieve from backend
     const [levelComplete, setLevelComplete] = useState(userDetails.levelFinished); // there will be a fixed number of levels anyway
 
     const handleFlagSuccess = (levelIndex) => {

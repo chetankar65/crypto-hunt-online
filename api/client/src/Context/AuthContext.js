@@ -10,7 +10,7 @@ const AuthContextProvider = ({ children }) => {
   useEffect(() => {
     const authenticateWithPassport = async () => {
       try {
-        const response = await axios.get(`/user`, {
+        const response = await axios.get(`/noFlags`, {
           withCredentials: true,
           headers: { 'x-access-source': 'crypto-hunt-token' }
         },
