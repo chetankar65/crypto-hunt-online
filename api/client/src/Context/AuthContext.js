@@ -10,7 +10,12 @@ const AuthContextProvider = ({ children }) => {
   useEffect(() => {
     const authenticateWithPassport = async () => {
       try {
-        const response = await axios.get(`/user`, {withCredentials: true,});
+        const response = await axios.get(`/user`, {
+          withCredentials: true,
+          headers: { 'x-access-source': 'crypto-hunt-token' }
+        },
+          
+        );
         setUserDetails(response.data === "" ? null : response.data.user)
         setComplete(true);
       } catch (error) {

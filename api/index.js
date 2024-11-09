@@ -85,7 +85,15 @@ app.get('/auth/google/callback',
     }
 )
 
-app.get('/user', (req, res) => {
+function checkCustomHeader(req, res, next) {
+    if (req.headers['x-access-source'] === 'crypto-hunt-token') {
+        return next(); // Allow access if header is correct
+    }
+    res.status(403).json({ message: "Forbidden access" }); // Deny if header is missing or incorrect
+}
+
+
+app.get('/user', checkCustomHeader, (req, res) => {
     //console.log(req.user);
     //console.log("session",req.session)
     res.status(200).send(req.user)
