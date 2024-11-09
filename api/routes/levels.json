@@ -33,7 +33,7 @@
             "README":{
                 "type":"text",
                 "size":40,
-                "data":"Reverse your perspective and seek the tiniest of them all.",
+                "data":"Reverse your perspective and list the tiniest of them all.",
                 "hidden":false
             },
             "file1.txt": {
@@ -645,7 +645,7 @@
             "README":{
                 "type":"text",
                 "size":40,
-                "data":"Reverse your perspective and seek the tiniest of them all.",
+                "data":"Reverse your perspective and list the tiniest of them all.",
                 "hidden":false
             },
             "file1.txt": {
@@ -1256,7 +1256,7 @@
             "README":{
                 "type":"text",
                 "size":40,
-                "data":"Reverse your perspective and seek the tiniest of them all.",
+                "data":"Reverse your perspective and list the tiniest of them all.",
                 "hidden":false
             },
             "file1.txt": {
@@ -2881,7 +2881,7 @@
                 "hidden": false
             },
             "README" : {
-                "data": "The ending might seem unusual, with characters like ‘=’ keeping everything balanced and basic.",
+                "data": "The ending might seem unusual, with characters like ‘=’ keeping everything balanced and basic.To decode the message, think of how things can be encoded in a way that looks cryptic, but when unraveled, reveal something much clearer.",
                 "type": "text",
                 "size": 40,
                 "hidden": false
@@ -2916,7 +2916,7 @@
             },
             
             "README" : {
-                "data": "The ending might seem unusual, with characters like ‘=’ keeping everything balanced and basic.",
+                "data": "The ending might seem unusual, with characters like ‘=’ keeping everything balanced and basic.To decode the message, think of how things can be encoded in a way that looks cryptic, but when unraveled, reveal something much clearer.",
                 "type": "text",
                 "size": 40,
                 "hidden": false
@@ -2968,7 +2968,7 @@
             },
             
             "README" : {
-                "data": "The ending might seem unusual, with characters like ‘=’ keeping everything balanced and basic.",
+                "data": "The ending might seem unusual, with characters like ‘=’ keeping everything balanced and basic.To decode the message, think of how things can be encoded in a way that looks cryptic, but when unraveled, reveal something much clearer.",
                 "type": "text",
                 "size": 40,
                 "hidden": false
@@ -2996,7 +2996,7 @@
                 "hidden": false
             },
             "README": {
-                "data": "Sometimes the answer is buried within the noise. Use the right tool to filter out what you’re looking for.",
+                "data": "The answer might be hidden in plain sight, but it's surrounded by a lot of noise. Use the right tools to sift through the clutter. Start by looking at the file's contents, then pass it through something that can help you grep the FLAG you're looking for. It’s all about directing the right stream to the right filter.",
                 "type": "text",
                 "size": 60,
                 "hidden": false
@@ -3035,7 +3035,7 @@
                 "hidden": false
             },
             "README": {
-                "data": "Sometimes the answer is buried within the noise. Use the right tool to filter out what you’re looking for.",
+                "data": "The answer might be hidden in plain sight, but it's surrounded by a lot of noise. Use the right tools to sift through the clutter. Start by looking at the file's contents, then pass it through something that can help you grep the FLAG you're looking for. It’s all about directing the right stream to the right filter.",
                 "type": "text",
                 "size": 60,
                 "hidden": false
@@ -3074,7 +3074,7 @@
                 "hidden": false
             },
             "README": {
-                "data": "Sometimes the answer is buried within the noise. Use the right tool to filter out what you’re looking for.",
+                "data": "The answer might be hidden in plain sight, but it's surrounded by a lot of noise. Use the right tools to sift through the clutter. Start by looking at the file's contents, then pass it through something that can help you grep the FLAG you're looking for. It’s all about directing the right stream to the right filter.",
                 "type": "text",
                 "size": 60,
                 "hidden": false
