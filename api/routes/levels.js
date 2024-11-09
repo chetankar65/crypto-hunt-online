@@ -21,7 +21,7 @@ router.get("/get-level-details/:userId", async (req, res) => {
                 break;
             }
         }
-        return res.status(200).send({ levelNo: atLevel, level: levels[atLevel], flag: flags[atLevel] });
+        return res.status(200).send({ levelNo: atLevel, level: levels[atLevel] });
     } catch (error) {
         return res.status(500).send(error);
     }
@@ -31,7 +31,13 @@ router.post("/update-level/", async (req, res) => {
     try {
         const userId = req.body.userId;
         const levelIndex = req.body.level;
+        const userFlag = req.body.userFlag;
 
+        const user = await User.findOne({ _id: userId });
+    
+        if (user.flags[levelIndex] !== userFlag) {
+            return res.status(404).send({ message: "Flag does not match" });
+        }
         // Update the boolean array and set the current time in finishTimes
         await User.updateOne(
             { _id: userId },

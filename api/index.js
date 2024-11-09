@@ -136,7 +136,10 @@ app.post("/execute", async (req, res) => {
         const command = req.body.command;
         let path = req.body.path;
         const level = req.body.level;
-        const flag = req.body.flag;
+
+        const user = await User.findById(req.user.user._id, 'flags');
+    
+        const flag = user.flags[Math.floor(level)];
         const parsedObject = parseCommand(command);
         // console.log(parsedObject);
         

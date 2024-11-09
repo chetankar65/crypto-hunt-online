@@ -4,32 +4,30 @@ import axios from "axios";
 import toast, { Toaster } from 'react-hot-toast';
 import "./flagInput.css"
 
-const FlagInput = ({ flag, level }) => {
+const FlagInput = ({level }) => {
   const { userDetails } = useContext(AuthContext);
   const [userInput, setUserInput] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (userInput.trim() === flag) {
-      try {
-        const response = await axios.post(
-          '/api/levels/update-level',
-          { 
-            userId: userDetails._id, 
-            level: level
+    try {
+      const response = await axios.post(
+        '/api/levels/update-level',
+        { 
+          userId: userDetails._id, 
+          level: level,
+          userFlag: userInput.trim()
+        },
+        {
+          headers: {
+            'Content-Type': 'application/json',
           },
-          {
-            headers: {
-              'Content-Type': 'application/json',
-            },
-          }
-        );
-        // Optionally, handle the response (e.g., show a success message)
-        window.location.reload();
-      } catch (error) {
-        console.error("Error updating level:", error);
-      }
-    } else {
+        }
+      );
+      // Optionally, handle the response (e.g., show a success message)
+      window.location.reload();
+    } catch (error) {
+      console.error("Error updating level:", error);
       toast.error("Incorrect flag!", {
         position: 'top-left',
         duration: 1000,

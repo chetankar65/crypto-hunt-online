@@ -60,8 +60,6 @@ const Terminal = () => {
       );
       setDispLevel(response.data.levelNo);
       setLevel(response.data.level);
-      
-      setFlag(response.data.flag);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -252,7 +250,7 @@ const Terminal = () => {
         </pre>
         <div className="topbar">
           <button onClick={logout}>Logout</button>
-          <FlagInput flag={flag} level={dispLevel} />
+          <FlagInput level={dispLevel} />
         </div>
         <div className="output-area">
           {history.map((entry, index) => (
